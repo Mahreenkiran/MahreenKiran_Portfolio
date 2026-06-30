@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<img src="assets/profile_photo.jpg" alt="Dr Mahreen Kiran" width="180">
+<img src="assets/profile.jpeg" alt="Dr Mahreen Kiran" width="180">
 # Dr Mahreen Kiran  
 ## Healthcare Data Scientist and Analyst Portfolio
 
