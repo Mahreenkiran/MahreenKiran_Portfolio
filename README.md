@@ -1,28 +1,36 @@
-
-
-<div align="left">
-<img src="assets/profile.jpeg" alt="Dr Mahreen Kiran" width="180"> 
-
 <div align="center">
-   
-# Dr Mahreen Kiran  
-## Healthcare Data Scientist and Analyst Portfolio
 
+<h1>
+  <img src="assets/profile.jpeg"
+       alt="Dr Mahreen Kiran"
+       width="180"
+       align="left">
+  &nbsp;&nbsp;&nbsp;
+  Dr Mahreen Kiran
+</h1>
 
+<h2>Healthcare Data Scientist and Analyst</h2>
 
-### Turning complex health data into clear, reproducible and clinically meaningful evidence
+<h3>
+  Turning complex health data into clear, reproducible and clinically meaningful evidence
+</h3>
+
+</div>
 
 [![Python](https://img.shields.io/badge/Python-Data%20Science-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#4-methodology)
 [![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#featured-project-results)
 [![Machine Learning](https://img.shields.io/badge/Machine-Learning-16343B?style=for-the-badge)](#technical-toolkit)
 [![Global Talent Visa](https://img.shields.io/badge/UK-Global%20Talent%20Visa-F0B64D?style=for-the-badge)](#contact)
 
-[**View the interactive portfolio**](index.html) &nbsp; | &nbsp;
-[**Download the PDF portfolio**](Mahreen_Kiran_Healthcare_Data_Portfolio.pdf) &nbsp; | &nbsp;
-[**LinkedIn**](https://linkedin.com/in/mahreen-kiran) &nbsp; | &nbsp;
-[**Email**](mailto:mehreen.kiran89@gmail.com)
-
-</div>
+<p align="center">
+  <a href="index.html"><strong>View the interactive portfolio</strong></a>
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="Mahreen_Kiran_Healthcare_Data_Portfolio.pdf"><strong>Download the PDF portfolio</strong></a>
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/mahreen-kiran"><strong>LinkedIn</strong></a>
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="mailto:mehreen.kiran89@gmail.com"><strong>Email</strong></a>
+</p>
 
 ---
 
