@@ -5,7 +5,9 @@
 
 <div align="center">
 
-<h1>Dr Mahreen Kiran</h1>
+<img src="assets/name.svg"
+     alt="Dr Mahreen Kiran"
+     width="700">
 
 <h3>Healthcare Data Scientist and Analyst</h3>
 
