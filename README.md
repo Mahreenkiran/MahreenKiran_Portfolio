@@ -10,8 +10,6 @@
 <strong><big>Healthcare Data Scientist and Analyst</big></strong><br><br>
 <strong>Turning complex health data into clear, reproducible and clinically meaningful evidence</strong><br><br>
 
-
-
 [![Python](https://img.shields.io/badge/Python-Data%20Science-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#4-methodology)
 [![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#featured-project-results)
 [![Machine Learning](https://img.shields.io/badge/Machine-Learning-16343B?style=for-the-badge)](#technical-toolkit)
@@ -38,7 +36,7 @@
 
 ---
 
-## **Healthcare Data and AI Portfolio**
+<!--  ## **Healthcare Data and AI Portfolio**
 <div align="justify">
 This portfolio presents my work across population health analytics, clinical prediction, infectious disease modelling, survival analysis, causal inference, explainable artificial intelligence and Digital Twin simulation.
 
@@ -60,9 +58,10 @@ My focus is not only on building accurate models. I design analytical workflows 
 > **Professional value proposition:** I transform complex health datasets into evidence that helps teams understand risk, prioritise interventions and make better decisions.
 
 ---
+-->
 
 # Executive Summary
-
+<div align="justify">
 I am a PhD-trained healthcare data scientist with more than four years of experience working with large, longitudinal and multidisciplinary datasets. My research has used UK Biobank data, clinical and epidemiological records, environmental data, medical imaging and behavioural variables.
 
 I work across the complete analytical lifecycle, from cohort definition and data quality assessment to modelling, validation, explainability and communication. My strongest areas include survival analysis, machine learning, causal inference, neural networks, SHAP explainability and healthcare-focused data storytelling.
