@@ -1,9 +1,14 @@
+
+
+<div align="left">
+<img src="assets/profile.jpeg" alt="Dr Mahreen Kiran" width="180"> 
+
 <div align="center">
-
-
-<img src="assets/profile.jpeg" alt="Dr Mahreen Kiran" width="180">
+   
 # Dr Mahreen Kiran  
 ## Healthcare Data Scientist and Analyst Portfolio
+
+
 
 ### Turning complex health data into clear, reproducible and clinically meaningful evidence
 
