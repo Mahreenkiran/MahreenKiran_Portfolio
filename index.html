@@ -525,25 +525,34 @@
         border-radius: 6px;
       }
 
-      <!-- nEW GALLERY -->
-      /* Two images above and one wide image below */
-/* Network gallery container */
-.network-gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
+/* NEW GALLERY: same height as the text column */
 
-  padding: 45px 16px 16px;
-
-  background: #eef7f7;
-  min-width: 0;
+.project .top {
+  align-items: stretch;
 }
 
-/* Both image boxes */
+.network-gallery {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+
+  padding: 16px;
+  background: #eef7f7;
+
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+
+  align-self: stretch;
+}
+
 .network-gallery-item {
   width: 100%;
+  height: auto !important;
   min-width: 0;
-  height: 250px;
+  min-height: 0;
   padding: 8px;
 
   display: flex;
@@ -556,12 +565,15 @@
   overflow: hidden;
 }
 
-/* Keep the full images visible */
 .network-gallery-item img {
   display: block;
-  width: 85%;
-  height: 85%;
-  object-fit: contain;
+  width: 100% !important;
+  height: 100% !important;
+
+  max-width: 100%;
+  max-height: 100%;
+
+  object-fit: contain !important;
   object-position: center;
 }
       /* 13. TABLET AND MOBILE LAYOUT */
@@ -1114,23 +1126,21 @@
 
 <div class="network-gallery">
 
-    <div class="network-gallery-item">
+  <div class="network-gallery-item">
     <img
       src="assets/neuralnetwork2.jpg"
-      alt="T2DM behavioural network"
+      alt="Behavioural cohesion analysis"
     />
   </div>
 
   <div class="network-gallery-item">
     <img
       src="assets/neuralnetwork3.jpg"
-      alt="Comparison of behavioural network reorganisation"
+      alt="Behavioural network comparison"
     />
   </div>
 
-</div>
-
-</div>
+</div></div>
 <!-- Important: closes the top section -->
 
 <div class="bottom">
