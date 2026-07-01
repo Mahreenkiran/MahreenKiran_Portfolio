@@ -525,6 +525,47 @@
         border-radius: 6px;
       }
 
+      <!-- nEW GALLERY -->
+      /* Two images above and one wide image below */
+.network-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  padding: 16px;
+  background: #eef7f7;
+  min-width: 0;
+}
+
+/* Individual image boxes */
+.network-gallery-item {
+  min-width: 0;
+  height: 230px;
+  padding: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Bottom image spans both columns */
+.network-gallery-wide {
+  grid-column: 1 / -1;
+  height: 300px;
+}
+
+/* Keep the full image visible */
+.network-gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
         .hero .wrap,
@@ -1077,12 +1118,37 @@
 
     </div>
 
-    <div class="visual">
-      <img
-        src="assets/behaviour_networks.png"
-        alt="Neural network influence and behavioural network reorganisation analysis"
-      />
-    </div>
+<div class="visual visual-grid">
+
+  <div class="visual-item">
+    <img
+      src="assets/diabetes_survival.png"
+      alt="Diabetes result 1"
+    />
+  </div>
+
+  <div class="visual-item">
+    <img
+      src="assets/diabetes_survival.png"
+      alt="Diabetes result 2"
+    />
+  </div>
+
+  <div class="visual-item">
+    <img
+      src="assets/diabetes_survival.png"
+      alt="Diabetes result 3"
+    />
+  </div>
+
+  <div class="visual-item">
+    <img
+      src="assets/diabetes_survival.png"
+      alt="Diabetes result 4"
+    />
+  </div>
+
+</div>
 
   </div>
 
