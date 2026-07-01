@@ -563,15 +563,24 @@
 }
 
 /* Keep the boxes unchanged and enlarge only the images */
+/* Keep both boxes unchanged */
 .network-gallery-item img {
   display: block;
   width: 100% !important;
   height: 100% !important;
   object-fit: contain !important;
   object-position: center;
+  transform: none;
+}
 
-  transform: scale(0.97);
-  transform-origin: center;
+/* First image: prevent labels from being cropped */
+.network-gallery-item:nth-child(1) img {
+  transform: scale(0.98);
+}
+
+/* Second image: enlarge it inside the same box */
+.network-gallery-item:nth-child(2) img {
+  transform: scale(1.18);
 }
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
@@ -1168,9 +1177,9 @@
       <li>
         <b>Tools:</b>
         Python, pandas, NumPy, neural networks, Cox regression and Matplotlib.
-      </li>
+      </li><li>
  <b>Dataset used:</b>
-        UkBiobank 
+        UkBiobank </li>
       </li>
     </ul>
 
