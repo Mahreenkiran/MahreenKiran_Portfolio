@@ -562,17 +562,16 @@
   overflow: hidden;
 }
 
+/* Keep the boxes unchanged and enlarge only the images */
 .network-gallery-item img {
   display: block;
-
   width: 100% !important;
-  height: auto !important;
-
-  max-width: 100% !important;
-  max-height: 100% !important;
-
+  height: 100% !important;
   object-fit: contain !important;
   object-position: center;
+
+  transform: scale(1.12);
+  transform-origin: center;
 }
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
