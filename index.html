@@ -1092,108 +1092,70 @@
 
       <h4>What I did</h4>
 
-      <ul>
-        <li>
-          Prepared a balanced analytical cohort of 15,422 participants,
-          comprising 7,711 T2DM events and 7,711 censored participants.
-        </li>
+<ul class="justified-text">
+  <li>
+    Prepared a balanced cohort of 15,422 participants using 18
+    non-laboratory behavioural and psychosocial variables.
+  </li>
 
-        <li>
-          Modelled 18 behavioural, psychosocial, dietary, sleep,
-          smoking and demographic variables without relying on
-          laboratory biomarkers.
-        </li>
+  <li>
+    Built separate neural network models for healthy and T2DM groups
+    using repeated five-fold cross-validation.
+  </li>
 
-        <li>
-          Developed separate neural network models for healthy and
-          T2DM cohorts using two hidden layers of 64 and 32 neurons
-          with ReLU activation.
-        </li>
+  <li>
+    Converted neural network influence scores into directed behavioural
+    networks.
+  </li>
 
-        <li>
-          Used a one-versus-all design in which each variable was
-          predicted from the remaining variables.
-        </li>
+  <li>
+    Compared network structure and integrated the findings with Cox
+    survival analysis.
+  </li>
+</ul>
 
-        <li>
-          Repeated training across 10 independent initialisations and
-          five-fold cross-validation, generating 50 models per target
-          and 900 networks per cohort.
-        </li>
+</div>
 
-        <li>
-          Extracted directional influence scores using effective
-          connection weights and converted them into weighted,
-          directed behavioural networks.
-        </li>
+<div>
 
-        <li>
-          Compared network structure using eigenvector centrality,
-          betweenness, PageRank, in-degree, out-degree and cohesion
-          measures.
-        </li>
+<h4>Key findings, tools and techniques</h4>
 
-        <li>
-          Integrated neural network results with Cox survival analysis
-          to identify variables associated with both disease onset and
-          disease maintenance.
-        </li>
-      </ul>
+<ul class="justified-text">
+  <li>
+    The healthy network was widely distributed, while the T2DM network
+    became concentrated around fewer unhealthy behavioural hubs.
+  </li>
 
-    </div>
+  <li>
+    Smoking, processed meat intake, loneliness and insomnia became more
+    influential in the T2DM network.
+  </li>
 
-    <div>
+  <li>
+    Protective behaviours, including healthier dietary patterns, lost
+    network influence.
+  </li>
 
-      <h4>Key findings, tools and techniques</h4>
+  <li>
+    The findings support interventions that target connected behaviours
+    rather than isolated risk factors.
+  </li>
 
-      <ul>
-        <li>
-          Healthy participants showed a distributed, multi-anchor
-          network, while the T2DM network became concentrated around
-          a smaller number of maladaptive behavioural hubs.
-        </li>
+  <li>
+    <b>Tools:</b>
+    Python, pandas, NumPy, neural networks, Cox regression and Matplotlib.
+  </li>
 
-        <li>
-          Tobacco smoking became the dominant structural hub,
-          connecting emotional distress with dietary and lifestyle
-          behaviours.
-        </li>
+  <li>
+    <b>Techniques:</b>
+    multilayer perceptrons, repeated cross-validation, connection-weight
+    analysis, directed networks and centrality analysis.
+  </li>
+</ul>
 
-        <li>
-          Processed meat intake gained a stronger bridging role between
-          unhealthy dietary patterns and psychological states.
-        </li>
+</div>
 
-        <li>
-          Loneliness and insomnia shifted from downstream outcomes to
-          active behavioural drivers and cross-domain intervention
-          points.
-        </li>
-
-        <li>
-          Protective anchors including high-fibre cereals, muesli and
-          moderate BMI lost systemic influence in the T2DM network.
-        </li>
-
-        <li>
-          <b>Tools:</b>
-          Python, pandas, NumPy, neural networks, Cox regression and
-          scientific visualisation.
-        </li>
-
-        <li>
-          <b>Techniques:</b>
-          multilayer perceptrons, ReLU activation, repeated five-fold
-          cross-validation, connection-weight analysis, Garson and
-          Olden influence estimation, directed weighted networks,
-          centrality analysis and behavioural cohesion modelling.
-        </li>
-      </ul>
-
-    </div>
-
-  </div>
-
+</div>
 </article>
       <!-- =======================================================
            PROJECT 2 - DENGUE ANALYTICS
