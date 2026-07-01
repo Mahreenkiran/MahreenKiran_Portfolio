@@ -482,43 +482,49 @@
   align-self: flex-start;
   margin-top: 50px;
 }
-<! -- 4 images code -->
-      /* Independent 2 × 2 project gallery */
-.project-gallery {
-  background: #eef7f7;
-  padding: 18px;
+/* 4 IMAGE GALLERY */
+  /* 2 × 2 gallery for project images */
+      .project-gallery {
+        width: 100%;
+        min-width: 0;
+        padding: 18px;
+        background: #eef7f7;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: repeat(2, 215px);
+        gap: 14px;
 
-  align-content: center;
-  min-width: 0;
-}
+        align-content: center;
+        align-items: stretch;
+      }
 
-/* Individual gallery box */
-.project-gallery .gallery-item {
-  min-width: 0;
-  padding: 8px;
+      .project-gallery .gallery-item {
+        min-width: 0;
+        height: 215px;
+        padding: 8px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-  background: white;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-}
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        overflow: hidden;
+      }
 
-/* Full image without cropping */
-.project-gallery .gallery-item img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 6px;
-}
+      .project-gallery .gallery-item img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 6px;
+      }
+
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
         .hero .wrap,
@@ -549,6 +555,14 @@
         .image-pair {
           grid-template-columns: 1fr;
         }
+
+        .project-gallery {
+          grid-template-rows: repeat(2, 230px);
+        }
+
+        .project-gallery .gallery-item {
+          height: 230px;
+        }
       }
       @media (max-width: 520px) {
         .stats,
@@ -567,6 +581,15 @@
         }
         .section-head h2 {
           font-size: 30px;
+        }
+
+        .project-gallery {
+          grid-template-columns: 1fr;
+          grid-template-rows: none;
+        }
+
+        .project-gallery .gallery-item {
+          height: 280px;
         }
       }
 
@@ -716,20 +739,20 @@
           </div>
         </div>
         <aside class="hero-card">
-          <div class="metric", aligh="justify">
+          <div class="metric">
             <b>500k+</b
             ><span
               >UK Biobank participants analysed in large scale health research</span>
           </div>
-          <div class="metric", aligh="justify">
+          <div class="metric">
             <b>0.90</b
             ><span>C-index achieved in time-to-event diabetes prediction</span>
           </div>
-          <div class="metric", aligh="justify">
+          <div class="metric">
             <b>3,000</b
             ><span>Patient records analysed in a six-year dengue study</span>
           </div>
-          <div class="metric", aligh="justify">
+          <div class="metric">
             <b>15+</b><span>Peer reviewed research in healthcare AI, digital health and predictive modelling</span>
           </div>
         </aside>
@@ -864,165 +887,133 @@
             <div class="role">
               PhD flagship project | Population health and prevention
             </div>
-            <article class="project">
 
-  <div class="top">
+            <h3 class="justified-text">
+              Behaviour-aware Digital Twin for Type 2 Diabetes prediction and
+              prevention
+            </h3>
 
-    <div class="copy">
+            <p class="justified-text">
+              <b>Challenge:</b>
+              Conventional diabetes prediction often relies heavily on clinical
+              biomarkers, limiting its usefulness in settings where laboratory
+              data are unavailable. The goal was to develop an interpretable
+              framework that could estimate time to diabetes onset using
+              routinely available behavioural, psychosocial and lifestyle
+              variables, while supporting preventive what-if scenarios.
+            </p>
 
-      <h3 class="justified-text">
-        Behaviour-aware Digital Twin for Type 2 Diabetes prediction and
-        prevention
-      </h3>
+            <div class="result-grid">
+              <div class="result">
+                <b>0.90</b>
+                <span>Concordance index</span>
+              </div>
 
-      <p class="justified-text">
-        <b>Challenge:</b>
-        Conventional diabetes prediction often relies heavily on clinical
-        biomarkers, limiting its usefulness in settings where laboratory data
-        are unavailable. The goal was to develop an interpretable framework
-        that could estimate time to diabetes onset using routinely available
-        behavioural, psychosocial and lifestyle variables, while supporting
-        preventive what-if scenarios.
-      </p>
+              <div class="result">
+                <b>500k+</b>
+                <span>UK Biobank cohort scale</span>
+              </div>
 
-      <div class="result-grid">
+              <div class="result">
+                <b>18</b>
+                <span>Predictors in the final survival model</span>
+              </div>
+            </div>
 
-        <div class="result">
-          <b>0.90</b>
-          <span>Concordance index</span>
+            <p class="note">
+              <b>Employer value:</b>
+              Demonstrates experience with longitudinal health data, clinical
+              risk stratification, model validation, interpretable outputs and
+              responsible communication of modifiable risk factors.
+            </p>
+          </div>
+
+          <div class="project-gallery">
+            <div class="gallery-item">
+              <img
+                src="assets/diabetes_survival.png"
+                alt="Diabetes survival analysis result 1"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="assets/diabetes_survival.png"
+                alt="Diabetes survival analysis result 2"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="assets/diabetes_survival.png"
+                alt="Diabetes survival analysis result 3"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="assets/diabetes_survival.png"
+                alt="Diabetes survival analysis result 4"
+              />
+            </div>
+          </div>
         </div>
 
-        <div class="result">
-          <b>500k+</b>
-          <span>UK Biobank cohort scale</span>
+        <div class="bottom">
+          <div>
+            <h4>What I did</h4>
+
+            <ul class="justified-text">
+              <li>
+                Defined analytic cohorts and prepared behavioural, lifestyle,
+                psychosocial and health variables.
+              </li>
+
+              <li>
+                Built penalised Cox models and neural approaches for
+                time-to-event risk estimation.
+              </li>
+
+              <li>
+                Used causal reasoning and intervention simulation to examine
+                potential changes in sleep, diet and mental health.
+              </li>
+
+              <li>
+                Created risk groups and survival trajectories to make model
+                results easier to interpret.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Key findings and tools</h4>
+
+            <ul class="justified-text">
+              <li>
+                Loneliness, insomnia, mental health history, smoking and dietary
+                behaviours contributed meaningful risk information.
+              </li>
+
+              <li>
+                Healthy sleep duration showed a protective association, while
+                several psychosocial stressors increased estimated hazard.
+              </li>
+
+              <li>
+                <b>Tools:</b>
+                Python, pandas, NumPy, lifelines, scikit-learn, neural networks,
+                SHAP, PCA, causal inference and Matplotlib.
+              </li>
+
+              <li>
+                <b>Dataset used:</b>
+                UK Biobank.
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <div class="result">
-          <b>18</b>
-          <span>Predictors in the final survival model</span>
-        </div>
-
-      </div>
-
-      <p class="note">
-        <b>Employer value:</b>
-        Demonstrates experience with longitudinal health data, clinical risk
-        stratification, model validation, interpretable outputs and responsible
-        communication of modifiable risk factors.
-      </p>
-
-    </div>
-
-    <div class="project-gallery">
-
-      <div class="gallery-item">
-        <img
-          src="assets/diabetes_survival.png"
-          alt="Diabetes survival analysis result 1"
-        />
-      </div>
-
-      <div class="gallery-item">
-        <img
-          src="assets/diabetes_survival.png"
-          alt="Diabetes survival analysis result 2"
-        />
-      </div>
-
-      <div class="gallery-item">
-        <img
-          src="assets/diabetes_survival.png"
-          alt="Diabetes survival analysis result 3"
-        />
-      </div>
-
-      <div class="gallery-item">
-        <img
-          src="assets/diabetes_survival.png"
-          alt="Diabetes survival analysis result 4"
-        />
-      </div>
-
-    </div>
-
-  </div>
-  <!-- Closes the .top section -->
-
-  <div class="bottom">
-
-    <div>
-
-      <h4>What I did</h4>
-
-      <ul class="justified-text">
-
-        <li>
-          Defined analytic cohorts and prepared behavioural, lifestyle,
-          psychosocial and health variables.
-        </li>
-
-        <li>
-          Built penalised Cox models and neural approaches for time-to-event
-          risk estimation.
-        </li>
-
-        <li>
-          Used causal reasoning and intervention simulation to examine
-          potential changes in sleep, diet and mental health.
-        </li>
-
-        <li>
-          Created risk groups and survival trajectories to make model results
-          easier to interpret.
-        </li>
-
-      </ul>
-
-    </div>
-
-    <div>
-
-      <h4>Key findings and tools</h4>
-
-      <ul class="justified-text">
-
-        <li>
-          Loneliness, insomnia, mental health history, smoking and dietary
-          behaviours contributed meaningful risk information.
-        </li>
-
-        <li>
-          Healthy sleep duration showed a protective association, while several
-          psychosocial stressors increased estimated hazard.
-        </li>
-
-        <li>
-          <b>Tools:</b>
-          Python, pandas, NumPy, lifelines, scikit-learn, neural networks, SHAP,
-          PCA, causal inference and Matplotlib.
-        </li>
-
-        <li>
-          <b>Dataset used:</b>
-          UK Biobank.
-        </li>
-
-      </ul>
-
-    </div>
-
-  </div>
-
-</article>
-      <div class="image-pair">
-        <img
-          src="assets/diabetes_clustering.png"
-          alt="Clustering and t-SNE analysis from diabetes research"
-        /><img
-          src="assets/behaviour_networks.png"
-          alt="Behavioural network reorganisation analysis"
-        />
-      </div>
+      </article>
 
 <!-- =======================================================
      NEURAL NETWORK AND BEHAVIOURAL REORGANISATION PROJECT
