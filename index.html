@@ -684,6 +684,39 @@
     grid-template-columns: 1fr;
   }
 }
+      .scholar-text-link {
+  display: block;
+  margin-top: 12px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.4;
+  text-decoration: underline;
+
+  animation: scholar-blink 1.4s ease-in-out infinite;
+}
+
+.scholar-text-link:hover {
+  color: var(--teal);
+}
+
+@keyframes scholar-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.35;
+  }
+}
+
+/* Stops animation for users who disable motion */
+@media (prefers-reduced-motion: reduce) {
+  .scholar-text-link {
+    animation: none;
+  }
+}
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
         .hero .wrap,
