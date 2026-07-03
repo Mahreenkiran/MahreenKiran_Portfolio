@@ -614,24 +614,24 @@
 
 #experience {
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
-/* Line below the Experience section heading */
-#experience .section-head {
+/* Line below only the Experience heading */
+#experience > .section-head {
   border-bottom: 2px solid var(--teal);
   padding-bottom: 24px;
   margin-bottom: 28px;
 }
 
-#experience .timeline:last-child {
+#experience .timeline:last-of-type {
   margin-bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   border-bottom: none;
 }
 
 #publications {
-  padding-top: 15px;
+  padding-top: 30px;
 }
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
@@ -1666,16 +1666,19 @@
       </div>
       <div class="timeline">
         <div class="when">2013–2022</div>
-        <div>
-          <h3>Lecturer in Computer Science</h3>
-          <p class="justified-text>
-            Taught databases, image processing, programming and data structures,
-            supervised research projects and communicated complex methods to
-            mixed-ability audiences.
-          </p>
-        </div>
-      </div>
-    </section>
+
+  <div>
+    <h3>Lecturer in Computer Science</h3>
+
+    <p>
+      Taught databases, image processing, programming and data structures,
+      supervised research projects and communicated complex methods to
+      mixed-ability audiences.
+    </p>
+  </div>
+</div>
+
+</section>
 
     <!-- =========================================================
          PUBLICATIONS SECTION
