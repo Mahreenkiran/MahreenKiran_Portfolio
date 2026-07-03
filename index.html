@@ -633,6 +633,58 @@
 #publications {
   padding-top: 30px;
 }
+      /* Experience cards */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.experience-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(24, 73, 78, 0.06);
+  border-top: 4px solid var(--teal);
+}
+
+.experience-date {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  background: var(--mint);
+  border-radius: 999px;
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.experience-card h3 {
+  margin: 0 0 4px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.experience-organisation {
+  margin-bottom: 12px;
+  color: var(--teal);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.experience-card p {
+  margin: 0;
+  color: var(--muted);
+  text-align: left;
+}
+
+/* One card per row on smaller screens */
+@media (max-width: 850px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+}
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
         .hero .wrap,
@@ -1620,58 +1672,64 @@
          Duplicate or remove a .timeline block to update roles.
     ========================================================== -->
     <section id="experience">
-      <div class="section-head">
-        <div>
-          <div class="kicker">Professional background</div>
-          <h2>Research, teaching and multidisciplinary collaboration</h2>
-        </div>
-        <p class="section-description3">
-          I combine technical depth with the ability to explain analytical
-          choices to people from clinical, scientific, operational and academic
-          backgrounds.
-        </p>
-      </div>
-      <div class="timeline">
-        <div class="when">2022–2026</div>
-        <div>
-          <h3>Data Scientist, PhD Research | Anglia Ruskin University</h3>
-          <p class="justified-text">
-            Population-scale diabetes prediction, survival analysis, Digital
-            Twin simulation, behavioural network analysis, explainability,
-            causal inference and publication.
-          </p>
-        </div>
-      </div>
-      <div class="timeline">
-        <div class="when">2025–2026</div>
-        <div>
-          <h3>Research Associate | Cranfield University</h3>
-          <p class="justified-text">
-            Analysed real-world maritime energy data and translated operational
-            findings into recommendations for engineering and sustainability
-            stakeholders.
-          </p>
-        </div>
-      </div>
-      <div class="timeline">
-        <div class="when">Sep 2024</div>
-        <div>
-          <h3>
-            Data Study Group Participant | Alan Turing Institute and UCL
-            Hospital
-          </h3>
-          <p class="justified-text">
-            Worked in a multidisciplinary team on a clinical prediction
-            challenge covering preprocessing, statistical analysis, model
-            development and reporting.
-          </p>
-        </div>
-      </div>
-      <div class="timeline">
-        <div class="when">2013–2022</div>
+     <div class="experience-grid">
 
-  <div>
+  <div class="experience-card">
+    <div class="experience-date">2022–2026</div>
+
+    <h3>Data Scientist, PhD Research</h3>
+
+    <div class="experience-organisation">
+      Anglia Ruskin University
+    </div>
+
+    <p>
+      Population-scale diabetes prediction, survival analysis, Digital Twin
+      simulation, behavioural network analysis, explainability, causal
+      inference and publication.
+    </p>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-date">2025–2026</div>
+
+    <h3>Research Associate</h3>
+
+    <div class="experience-organisation">
+      Cranfield University
+    </div>
+
+    <p>
+      Analysed real-world maritime energy data and translated operational
+      findings into recommendations for engineering and sustainability
+      stakeholders.
+    </p>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-date">Sep 2024</div>
+
+    <h3>Data Study Group Participant</h3>
+
+    <div class="experience-organisation">
+      Alan Turing Institute and UCL Hospital
+    </div>
+
+    <p>
+      Worked in a multidisciplinary team on a clinical prediction challenge
+      covering preprocessing, statistical analysis, model development and
+      reporting.
+    </p>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-date">2013–2022</div>
+
     <h3>Lecturer in Computer Science</h3>
+
+    <div class="experience-organisation">
+      Academic teaching and research
+    </div>
 
     <p>
       Taught databases, image processing, programming and data structures,
@@ -1679,6 +1737,7 @@
       mixed-ability audiences.
     </p>
   </div>
+
 </div>
 
 </section>
