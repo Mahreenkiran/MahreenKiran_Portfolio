@@ -710,6 +710,12 @@
   object-fit: contain;
   object-position: center;
 }
+      /* Stretch only the first image vertically */
+.vertical-stretch-image {
+  transform: scaleY(1.12);
+  transform-origin: center;
+}
+      
       /* 14. PDF AND PRINT LAYOUT */
       @media print {
         body {
@@ -1045,10 +1051,11 @@
             </p>
           </div>
 
-          <div class="shap-gallery">
+         <div class="shap-gallery">
 
   <div class="shap-gallery-item">
     <img
+      class="vertical-stretch-image"
       src="assets/dt3.jpg"
       alt="Diabetes survival analysis"
     />
@@ -1064,6 +1071,7 @@
 </div>
 
 </div>
+<!-- Closes the .top section -->
 <!-- Closes the .top section -->
         
 
