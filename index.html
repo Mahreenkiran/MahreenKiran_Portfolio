@@ -614,12 +614,24 @@
 
 #experience {
   padding-top: 15px;
+  padding-bottom: 10px;
 }
-      /* Line below the Experience section heading */
+
+/* Line below the Experience section heading */
 #experience .section-head {
   border-bottom: 2px solid var(--teal);
   padding-bottom: 24px;
   margin-bottom: 28px;
+}
+
+#experience .timeline:last-child {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  border-bottom: none;
+}
+
+#publications {
+  padding-top: 15px;
 }
       /* 13. TABLET AND MOBILE LAYOUT */
       @media (max-width: 850px) {
@@ -1620,7 +1632,7 @@
         <div class="when">2022–2026</div>
         <div>
           <h3>Data Scientist, PhD Research | Anglia Ruskin University</h3>
-          <p>
+          <p class="justified-text">
             Population-scale diabetes prediction, survival analysis, Digital
             Twin simulation, behavioural network analysis, explainability,
             causal inference and publication.
@@ -1631,7 +1643,7 @@
         <div class="when">2025–2026</div>
         <div>
           <h3>Research Associate | Cranfield University</h3>
-          <p>
+          <p class="justified-text>
             Analysed real-world maritime energy data and translated operational
             findings into recommendations for engineering and sustainability
             stakeholders.
@@ -1645,7 +1657,7 @@
             Data Study Group Participant | Alan Turing Institute and UCL
             Hospital
           </h3>
-          <p>
+          <p class="justified-text>
             Worked in a multidisciplinary team on a clinical prediction
             challenge covering preprocessing, statistical analysis, model
             development and reporting.
@@ -1656,7 +1668,7 @@
         <div class="when">2013–2022</div>
         <div>
           <h3>Lecturer in Computer Science</h3>
-          <p>
+          <p class="justified-text>
             Taught databases, image processing, programming and data structures,
             supervised research projects and communicated complex methods to
             mixed-ability audiences.
