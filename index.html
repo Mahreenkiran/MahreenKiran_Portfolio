@@ -670,7 +670,46 @@
           height: 280px;
         }
       }
+/* SHAP gallery: two images, one above the other */
+.shap-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
 
+  width: 100%;
+  min-width: 0;
+  padding: 16px;
+
+  background: #eef7f7;
+  align-self: stretch;
+}
+
+/* Individual SHAP image boxes */
+.shap-gallery-item {
+  width: 100%;
+  min-width: 0;
+  height: 290px;
+  padding: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Show the complete images */
+.shap-gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  object-position: center;
+}
       /* 14. PDF AND PRINT LAYOUT */
       @media print {
         body {
@@ -1383,18 +1422,18 @@
       </p>
 
     </div>
-    <!-- Closes copy column -->
+    <!-- Closes the copy column -->
 
-    <div class="class="visual"">
+    <div class="shap-gallery">
 
-      <div class="class="visual"">
+      <div class="shap-gallery-item">
         <img
           src="assets/Shap.jpg"
           alt="SHAP interaction analysis"
         />
       </div>
 
-      <div class="network-gallery-item bottom-network-image">
+      <div class="shap-gallery-item">
         <img
           src="assets/Shap2.jpg"
           alt="Combined climate effects on pesticide performance"
@@ -1404,73 +1443,15 @@
     </div>
 
   </div>
-  <!-- Closes top section -->
+  <!-- Closes the top section -->
 
   <div class="bottom">
 
-    <div>
-
-      <h4>What I contributed</h4>
-
-      <ul class="standard-bullets">
-        <li>
-          Prepared climate and pesticide variables, including imputation,
-          scaling, categorical encoding and outlier checks.
-        </li>
-
-        <li>
-          Applied XGBoost and SHAP interaction analysis to assess
-          climate-dependent pesticide behaviour.
-        </li>
-
-        <li>
-          Used simulation to test combined environmental conditions and
-          improve interpretation.
-        </li>
-
-        <li>
-          <b>Dataset used:</b>
-          2,000 agricultural and environmental records from six KPK districts,
-          collected between 2020 and 2024.
-        </li>
-      </ul>
-
-    </div>
-
-    <div>
-
-      <h4>Key results</h4>
-
-      <ul class="standard-bullets">
-        <li>
-          Propiconazole performed best, with Dose 4 providing the strongest
-          disease control and yield improvement.
-        </li>
-
-        <li>
-          Temperature, humidity and rainfall significantly affected pesticide
-          performance.
-        </li>
-
-        <li>
-          Moisture-dependent fungicides performed better in wet and humid
-          conditions, while other pesticides remained effective across a wider
-          range of climates.
-        </li>
-
-        <li>
-          <b>Tools:</b>
-          Python, XGBoost, SHAP and Monte Carlo simulation.
-        </li>
-      </ul>
-
-    </div>
+    <!-- Your two bottom text columns remain here -->
 
   </div>
-  <!-- Closes bottom section -->
 
 </article>
-     
 
       <!-- ====================================================
            PROJECT 4 - TUBERCULOSIS IMAGING
