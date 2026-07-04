@@ -186,7 +186,25 @@
 .hero-card span {
   line-height: 1.35;
 }
+/* Hero skills panel */
+.hero-card.hero-skills .metric {
+  grid-template-columns: 155px 1fr;
+  gap: 18px;
+}
 
+.hero-card.hero-skills b {
+  font-size: 22px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.hero-card.hero-skills span {
+  display: block;
+  font-size: 16px;
+  line-height: 1.45;
+  text-align: justify;
+  text-align-last: left;
+}
       /* 5. GENERAL SECTION LAYOUT */
       section {
         max-width: 1160px;
@@ -1101,15 +1119,17 @@
   <div class="metric">
     <b>Languages</b>
     <span>
-      Python, SQL and R for statistical, machine learning and bibliometric analysis
+      Python, SQL and R for statistical, machine learning and bibliometric
+      analysis
     </span>
   </div>
 
   <div class="metric">
     <b>ML & modelling</b>
     <span>
-      Regression, classification, clustering, survival analysis, neural networks,
-      ensemble methods and explainable AI
+      Regression, classification, clustering, anomaly detection, survival
+      analysis, neural networks, ensemble methods, causal inference and
+      explainable AI
     </span>
   </div>
 
@@ -1117,7 +1137,7 @@
     <b>Libraries</b>
     <span>
       pandas, NumPy, scikit-learn, PyTorch, TensorFlow, lifelines,
-      Matplotlib and SHAP
+      scikit-survival, Matplotlib, Seaborn and SHAP
     </span>
   </div>
 
