@@ -91,17 +91,17 @@
         right: -120px;
         top: -190px;
       }
-      .hero .wrap {
-        max-width: 1160px;
-        margin: auto;
-        padding: 82px 24px 72px;
-        display: grid;
-        grid-template-columns: 1.25fr 0.75fr;
-        gap: 50px;
-        align-items: center;
-        position: relative;
-        z-index: 1;
-      }
+   .hero .wrap {
+  max-width: 1160px;
+  margin: auto;
+  padding: 82px 24px 72px;
+  display: grid;
+  grid-template-columns: 1fr 0.95fr;
+  gap: 42px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
       .eyebrow {
         text-transform: uppercase;
         letter-spacing: 2.5px;
@@ -168,6 +168,24 @@
       .hero-card span {
         color: #e6f8f6;
       }
+      /* Make the right hero panel wider and less tall */
+.hero-card {
+  width: 100%;
+}
+
+.hero-card .metric {
+  grid-template-columns: 95px 1fr;
+  gap: 18px;
+  padding: 14px 0;
+}
+
+.hero-card b {
+  white-space: nowrap;
+}
+
+.hero-card span {
+  line-height: 1.35;
+}
 
       /* 5. GENERAL SECTION LAYOUT */
       section {
