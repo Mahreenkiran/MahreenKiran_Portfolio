@@ -488,6 +488,27 @@
     text-align: left;
   }
 }
+      .publications a.pub {
+  display: block;
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.publications a.pub:hover {
+  transform: translateY(-3px);
+  border-color: var(--teal);
+  box-shadow: 0 12px 28px rgba(24, 73, 78, 0.12);
+  text-decoration: none;
+}
+
+.publications a.pub:hover b {
+  color: var(--teal);
+}
+
+.publications a.pub span {
+  color: var(--muted);
+}
       
 
       /* 12. FOOTER */
@@ -2105,7 +2126,12 @@
 
   <div class="publications">
 
-    <div class="pub">
+    <a
+      class="pub"
+      href="DIGITAL_TWIN_PAPER_PDF_LINK"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <b>
         A Digital Twin Framework for Predicting and Simulating Type 2
         Diabetes Onset
@@ -2114,9 +2140,14 @@
       <span>
         Frontiers in Digital Health, 2026
       </span>
-    </div>
+    </a>
 
-    <div class="pub">
+    <a
+      class="pub"
+      href="NEURAL_FRAMEWORK_PAPER_PDF_LINK"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <b>
         Type 2 Diabetes Prediction Without Labs: A Systems-Level Neural
         Framework
@@ -2125,9 +2156,14 @@
       <span>
         Frontiers in Digital Health, 2026
       </span>
-    </div>
+    </a>
 
-    <div class="pub">
+    <a
+      class="pub"
+      href="BIBLIOMETRIC_PAPER_PDF_LINK"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <b>
         Machine Learning and Artificial Intelligence in Type 2 Diabetes
         Prediction
@@ -2136,9 +2172,14 @@
       <span>
         33-year bibliometric and literature analysis, 2025
       </span>
-    </div>
+    </a>
 
-    <div class="pub">
+    <a
+      class="pub"
+      href="EXPLAINABLE_AI_PAPER_PDF_LINK"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <b>
         Explainable AI and Machine Learning for Wheat Black Point Disease
       </b>
@@ -2146,7 +2187,7 @@
       <span>
         Multidisciplinary preprint, 2025
       </span>
-    </div>
+    </a>
 
   </div>
   <!-- Closes publications grid -->
