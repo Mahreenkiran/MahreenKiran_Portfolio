@@ -849,7 +849,19 @@
   background: #eef7f7;
   align-self: stretch;
 }
+.hero-card.hero-skills .metric {
+  grid-template-columns: 165px 1fr;
+}
 
+.hero-card.hero-skills b {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.hero-card.hero-skills span {
+  font-size: 16px;
+  line-height: 1.45;
+}
 /* Individual SHAP image boxes */
 .shap-gallery-item {
   width: 100%;
@@ -1066,24 +1078,40 @@
             >
           </div>
         </div>
-        <aside class="hero-card">
-          <div class="metric">
-            <b>500k+</b
-            ><span
-              >UK Biobank participants analysed in large scale health research</span>
-          </div>
-          <div class="metric">
-            <b>0.90</b
-            ><span>C-index achieved in time-to-event diabetes prediction</span>
-          </div>
-          <div class="metric">
-            <b>3k+</b
-            ><span>Patient records analysed in a six-year dengue study</span>
-          </div>
-          <div class="metric">
-            <b>15+</b><span>Peer reviewed research in healthcare AI, digital health and predictive modelling</span>
-          </div>
-        </aside>
+       <aside class="hero-card hero-skills">
+
+  <div class="metric">
+    <b>Languages</b>
+    <span>
+      Python, SQL and R for statistical, machine learning and bibliometric analysis
+    </span>
+  </div>
+
+  <div class="metric">
+    <b>ML & modelling</b>
+    <span>
+      Regression, classification, clustering, survival analysis, neural networks,
+      ensemble methods and explainable AI
+    </span>
+  </div>
+
+  <div class="metric">
+    <b>Libraries</b>
+    <span>
+      pandas, NumPy, scikit-learn, PyTorch, TensorFlow, lifelines,
+      Matplotlib and SHAP
+    </span>
+  </div>
+
+  <div class="metric">
+    <b>Platforms</b>
+    <span>
+      Excel, Jupyter Notebook, Power BI, Weka, RapidMiner, VOSviewer,
+      Bibliometrix and Biblioshiny
+    </span>
+  </div>
+
+</aside>
       </div>
     </header>
     <!-- =========================================================
