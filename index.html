@@ -546,7 +546,42 @@
 .publications a.pub span {
   color: var(--muted);
 }
-      
+     /* Move the right skills box slightly to the right and reduce its height */
+.hero .wrap {
+  max-width: 1420px;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 30px;
+}
+
+.hero-card.hero-skills {
+  justify-self: end;
+  width: 100%;
+  max-width: 620px;
+  padding: 22px 26px;
+  transform: translateX(35px);
+}
+
+.hero-card-title {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.hero-card.hero-skills .metric {
+  grid-template-columns: 175px 1fr;
+  gap: 18px;
+  padding: 10px 0;
+}
+
+.hero-card.hero-skills b {
+  font-size: 21px;
+}
+
+.hero-card.hero-skills span {
+  font-size: 15.5px;
+  line-height: 1.35;
+  text-align: justify;
+  text-align-last: left;
+} 
 
       /* 12. FOOTER */
       footer {
