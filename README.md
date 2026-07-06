@@ -21,7 +21,7 @@
 
 <p align="center">
    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-<a href="https://mahreenkiran.github.io/Portfolio/"><strong>🌐View Interactive Portfolio</strong></a>
+<a href="https://mahreenkiran.github.io/MahreenKiran_Portfolio/"><strong>🌐View Interactive Portfolio</strong></a>
   &nbsp;&nbsp;
   <a href="https://linkedin.com/in/mahreen-kiran"><strong>💼 LinkedIn</strong></a>
   &nbsp;&nbsp;&nbsp;
@@ -46,7 +46,7 @@ It is designed for recruiters, healthcare analytics teams, research groups and c
 - The projects I have delivered
 - The value of my work for healthcare, public health and research decision-making
 
-I work across the complete analytical lifecycle, from cohort definition and data quality assessment to modelling, validation, explainability and communication.  The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
+I work across the complete analytical lifecycle, from cohort definition and data quality assessment to modelling, validation, explainability and communication.  The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/MahreenKiran_Portfolio/).
 
 <div align="left">
 
@@ -240,7 +240,7 @@ Portfolio/
 
 Open the live portfolio:
 
-[https://mahreenkiran.github.io/Portfolio/](https://mahreenkiran.github.io/Portfolio/)
+[https://mahreenkiran.github.io/MahreenKiran_Portfolio/](https://mahreenkiran.github.io/MahreenKiran_Portfolio/)
 
 ### Local version
 
@@ -277,7 +277,7 @@ Global Talent Visa, no sponsorship required
 
 **Email:** [mehreen.kiran89@gmail.com](mailto:mehreen.kiran89@gmail.com)  
 **LinkedIn:** [linkedin.com/in/mahreen-kiran](https://linkedin.com/in/mahreen-kiran)  
-**Portfolio:** [mahreenkiran.github.io/Portfolio](https://mahreenkiran.github.io/Portfolio/)
+**Portfolio:** [mahreenkiran.github.io/MahreenKiran_Portfolio/](https://mahreenkiran.github.io/MahreenKiran_Portfolio/)
 
 ---
 </div>
