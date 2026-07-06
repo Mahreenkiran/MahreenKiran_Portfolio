@@ -28,7 +28,7 @@
 ---
 
 <br clear="left">
-
+<div align="justify">
 ---
 
 ## About this portfolio
@@ -45,7 +45,7 @@ It is designed for recruiters, healthcare analytics teams, research groups and c
 The full visual case studies are available in the interactive portfolio website.
 
 ---
-
+</div>
 ## Portfolio at a glance
 
 | Area | Evidence shown |
