@@ -65,10 +65,10 @@ This section summarises the strongest evidence from my portfolio and shows how e
 
 | Portfolio evidence | What it demonstrates |
 |---|---|
-| **500,000+ UK Biobank participants analysed** | Experience working with large-scale population health data, cohort development and predictive analytics |
+| **19,000+ UK Biobank participants analysed** | Experience working with large-scale population health data, cohort development and predictive analytics |
 | **0.90 C-index in Type 2 diabetes prediction** | Strong capability in time-to-event modelling, survival analysis and risk stratification |
 | **1,800 neural networks trained** | Robust repeated modelling, validation and behavioural systems analysis |
-| **3,000 dengue patient records across five districts** | Public health analytics using clinical, serological, epidemiological and environmental variables |
+| **3,000+ dengue patient records across five districts** | Public health analytics using clinical, serological, epidemiological and environmental variables |
 | **3,581 drinking-water samples analysed** | Environmental health analytics, data cleaning, guideline auditing and contamination-pattern detection |
 | **2,351 articles mapped over 33 years** | Bibliometric analysis, thematic analysis, research intelligence and evidence synthesis |
 | **Multiple explainability methods used** | SHAP, feature importance, ablation analysis and responsible interpretation of model outputs |
