@@ -16,6 +16,8 @@
 [![Explainable AI](https://img.shields.io/badge/Explainable-AI-0B3C49?style=for-the-badge)](#technical-toolkit)
 [![No Sponsorship Required](https://img.shields.io/badge/UK-No%20Sponsorship%20Required-F0B64D?style=for-the-badge)](#contact)
 
+---
+
 <p align="center">
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
@@ -27,14 +29,17 @@
 
 </div>
 
-<br clear="left">
 
 ---
 
-<div align="justify">
+
+
      
 ## About this portfolio
+<br clear="left">
 
+<div align="justify">
+     
 This repository contains my professional portfolio in **healthcare data science, machine learning, clinical prediction, public health analytics, explainable AI and evidence synthesis**.
 
 It is designed for recruiters, healthcare analytics teams, research groups and collaborators who want to quickly understand:
