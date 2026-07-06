@@ -53,14 +53,34 @@ The full visual case studies are available in the [interactive portfolio website
 
 | Area | Evidence shown |
 |---|---|
-| **Population health analytics** | Type 2 diabetes prediction using UK Biobank scale data |
-| **Predictive modelling** | Survival analysis, classification, neural networks and ensemble learning |
-| **Model interpretation** | SHAP, feature importance, sensitivity analysis and causal reasoning |
-| **Public health analytics** | Dengue infection prediction and drinking-water safety analysis |
-| **Evidence synthesis** | Bibliometric, thematic and literature mapping of healthcare AI research |
-| **Communication** | Employer-focused case studies, visual summaries and publication outputs |
+| **Healthcare data science** | Type 2 diabetes prediction, dengue infection prediction, water-quality safety analysis and healthcare AI evidence synthesis |
+| **Population health analytics** | Large-scale Type 2 diabetes prediction using UK Biobank data |
+| **Data preparation and quality control** | Cohort definition, missing-data checks, feature engineering, recoding, outlier assessment and analysis-ready dataset creation |
+| **Predictive modelling** | Survival analysis, classification, neural networks, ensemble learning and risk stratification |
+| **Model validation** | Cross-validation, sensitivity analysis, ablation analysis, temporal checks and geographic validation |
+| **Model interpretation and responsible AI** | SHAP, feature importance, sensitivity analysis, causal reasoning and clear reporting of limitations |
+| **Public health analytics** | Dengue infection prediction, Tuberculosis  and drinking-water safety analysis using clinical, epidemiological, environmental and monitoring data |
+| **Evidence synthesis** | Bibliometric analysis, thematic analysis and literature mapping of healthcare AI research |
+| **Communication** | Employer-focused case studies, visual summaries, publication outputs and decision-ready reporting |
+| **Technical toolkit** | Advanced Python, advanced SQL, R, scikit-learn, XGBoost, SHAP, Power BI, VOSviewer, Bibliometrix and Excel |
+
+## Technical toolkit
+
+| Area | Tools and methods |
+|---|---|
+| **Languages** | Advanced Python, Advanced SQL, Basic R |
+| **Data analysis** | pandas, NumPy, Excel and Jupyter Notebook |
+| **Machine learning** | scikit-learn, XGBoost, Random Forest, Gradient Boosting, Logistic Regression and neural networks |
+| **Survival analysis** | Cox proportional hazards models, risk trajectories and Kaplan-Meier analysis |
+| **Deep learning** | TensorFlow and PyTorch |
+| **Explainability** | SHAP, feature importance, permutation importance, ablation analysis, sensitivity analysis and model interpretation |
+| **Causal methods** | Directed acyclic graphs, matching, adjusted modelling and intervention reasoning |
+| **Visualisation** | Matplotlib, Seaborn, Power BI and portfolio visual reporting |
+| **Research analytics** | Bibliometrix, Biblioshiny, VOSviewer, Web of Science and Scopus |
+| **Validation** | Cross-validation, temporal validation, geographic validation, calibration and robustness checks |
 
 ---
+
 <div align="justify">
      
 ## Evidence of analytical capability
@@ -157,22 +177,7 @@ This section presents six selected projects from my wider portfolio. They were c
 ---
 
 
-## Technical toolkit
 
-| Area | Tools and methods |
-|---|---|
-| **Languages** | Python, SQL and R |
-| **Data analysis** | pandas, NumPy, Excel and Jupyter Notebook |
-| **Machine learning** | scikit-learn, XGBoost, Random Forest, Gradient Boosting, Logistic Regression and neural networks |
-| **Survival analysis** | Cox proportional hazards models, risk trajectories and Kaplan-Meier analysis |
-| **Deep learning** | TensorFlow and PyTorch |
-| **Explainability** | SHAP, feature importance, ablation analysis and sensitivity analysis |
-| **Causal methods** | Directed acyclic graphs, matching, adjusted modelling and intervention reasoning |
-| **Visualisation** | Matplotlib, Seaborn, Power BI and portfolio visual reporting |
-| **Research analytics** | Bibliometrix, Biblioshiny, VOSviewer, Web of Science and Scopus |
-| **Validation** | Cross-validation, temporal validation, geographic validation, calibration and robustness checks |
-
----
 
 ## How I work
 
