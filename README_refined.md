@@ -25,11 +25,14 @@
   <a href="mailto:mehreen.kiran89@gmail.com"><strong>Email</strong></a>
 </p>
 
----
+</div>
 
 <br clear="left">
-<div align="justify">
 
+---
+
+<div align="justify">
+     
 ## About this portfolio
 
 This repository contains my professional portfolio in **healthcare data science, machine learning, clinical prediction, public health analytics, explainable AI and evidence synthesis**.
