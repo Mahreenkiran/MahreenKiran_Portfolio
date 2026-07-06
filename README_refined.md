@@ -230,8 +230,6 @@ Download the repository and open:
 index.html
 ```
 
-> Note: I recommend using the interactive website as the main portfolio view. A PDF export can be added later once the print layout is fully polished.
-
 ---
 
 ## Target roles
