@@ -166,18 +166,8 @@ This README is a guide to the portfolio. The full visual case studies are availa
 
 My analytical workflow is structured around reproducibility, interpretability and decision relevance.
 
-```mermaid
-flowchart LR
-    A[Research or business question] --> B[Data understanding]
-    B --> C[Cleaning and cohort definition]
-    C --> D[Exploratory analysis]
-    D --> E[Feature engineering]
-    E --> F[Model development]
-    F --> G[Validation]
-    G --> H[Explainability]
-    H --> I[Interpretation]
-    I --> J[Decision ready reporting]
-```
+<img src="assets/howiwork.png">
+
 
 I focus on making sure that the model answers the right question, uses appropriate data, avoids misleading performance claims and produces findings that can be understood by clinical, public health, research and operational audiences.
 
