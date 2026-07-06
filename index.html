@@ -1055,7 +1055,12 @@
 .hero-card.hero-skills .metric {
   border-bottom: 1px solid rgba(255, 255, 255, 0.28);
 }
-      
+      button.btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+}
       /* 14. PDF AND PRINT LAYOUT */
       @media print {
         body {
@@ -1195,12 +1200,19 @@
             Data scientist with more than four years of experience in healthcare research and analytics, including doctoral research and collaborative projects in population health, clinical prediction, infectious disease analytics and explainable AI. 
             I build reproducible analytical workflows, communicate uncertainty clearly and translate model outputs into meaningful insights for healthcare and public health teams.
           </p> </div>
-          <div class="cta">
-            <a class="btn" href="mailto:mehreen.kiran89@gmail.com">Contact me</a
-            ><a class="btn alt" href="https://linkedin.com/in/mahreen-kiran"
-              >LinkedIn</a
-            >
-          </div>
+         <div class="cta">
+  <a class="btn" href="mailto:mehreen.kiran89@gmail.com">
+    Contact me
+  </a>
+
+  <a class="btn alt" href="https://linkedin.com/in/mahreen-kiran">
+    LinkedIn
+  </a>
+
+  <button class="btn alt" onclick="window.print()">
+    Download portfolio
+  </button>
+</div>
         </div>
        <aside class="hero-card hero-skills">
 
