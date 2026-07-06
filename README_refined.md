@@ -17,9 +17,8 @@
 [![No Sponsorship Required](https://img.shields.io/badge/UK-No%20Sponsorship%20Required-F0B64D?style=for-the-badge)](#contact)
 
 <p align="center">
-  <a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
-  &nbsp;&nbsp; | &nbsp;&nbsp;
-  <a href="Mahreen_Kiran_Healthcare_Data_Portfolio.pdf"><strong>Download the PDF portfolio</strong></a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
   &nbsp;&nbsp; | &nbsp;&nbsp;
   <a href="https://linkedin.com/in/mahreen-kiran"><strong>LinkedIn</strong></a>
   &nbsp;&nbsp; | &nbsp;&nbsp;
