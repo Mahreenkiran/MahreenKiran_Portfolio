@@ -57,7 +57,8 @@ The full visual case studies are available in the [interactive portfolio website
 | **Communication** | Employer-focused case studies, visual summaries and publication outputs |
 
 ---
-
+<div align="justify">
+     
 ## Evidence of analytical capability
 
 This section summarises the strongest evidence from my portfolio and shows how each project demonstrates skills relevant to healthcare data science, clinical analytics, population health and AI research roles.
@@ -73,6 +74,7 @@ This section summarises the strongest evidence from my portfolio and shows how e
 | **Multiple explainability methods used** | SHAP, feature importance, ablation analysis and responsible interpretation of model outputs |
 
 The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
+</div>
 
 ---
 
