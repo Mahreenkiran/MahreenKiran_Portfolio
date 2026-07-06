@@ -36,14 +36,15 @@ This repository contains my professional portfolio in **healthcare data science,
 
 It is designed for recruiters, healthcare analytics teams, research groups and collaborators who want to quickly understand:
 
-- the types of data problems I work on
-- the methods and tools I use
-- the projects I have delivered
-- the value of my work for healthcare, public health and research decision-making
+- The types of data problems I work on
+- The methods and tools I use
+- The projects I have delivered
+- The value of my work for healthcare, public health and research decision-making
 
-The full visual case studies are available in the interactive portfolio website.
+The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
 
 </div>
+
 ## Portfolio at a glance
 
 | Area | Evidence shown |
