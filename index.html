@@ -1055,12 +1055,6 @@
 .hero-card.hero-skills .metric {
   border-bottom: 1px solid rgba(255, 255, 255, 0.28);
 }
-      button.btn {
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: inherit;
-}
       
       /* 14. PDF AND PRINT LAYOUT */
       @media print {
@@ -1118,6 +1112,337 @@
           break-before: page;
         }
       }
+    
+/* =========================================================
+   PDF / PRINT FRIENDLY LAYOUT
+   Add this after all other CSS rules.
+   ========================================================= */
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+@media print {
+  /* Remove browser-like web elements from the PDF */
+  nav,
+  .cta,
+  footer {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #16343b !important;
+    font-size: 10.5pt !important;
+    line-height: 1.42 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Important: justified text creates large gaps in PDF */
+  .justified-text,
+  p,
+  li,
+  .note,
+  .section-head p,
+  .hero h2,
+  .hero p {
+    text-align: left !important;
+    text-align-last: left !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+  }
+
+  /* Hero should not consume two pages */
+  .hero {
+    background: linear-gradient(125deg, #0d3d46 0%, #0b6b6b 58%, #16858a 100%) !important;
+    page-break-after: avoid !important;
+  }
+
+  .hero::after {
+    display: none !important;
+  }
+
+  .hero .wrap {
+    max-width: none !important;
+    padding: 14mm 12mm 10mm !important;
+    display: block !important;
+  }
+
+  .eyebrow {
+    font-size: 9pt !important;
+    letter-spacing: 1.8px !important;
+  }
+
+  .hero h1 {
+    font-size: 34pt !important;
+    line-height: 1.05 !important;
+    margin: 8px 0 6px !important;
+  }
+
+  .hero h2 {
+    font-size: 15pt !important;
+    line-height: 1.25 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .hero p {
+    font-size: 10.5pt !important;
+    max-width: none !important;
+    margin-bottom: 0 !important;
+  }
+
+  .hero-card.hero-skills {
+    transform: none !important;
+    max-width: none !important;
+    width: 100% !important;
+    margin-top: 9mm !important;
+    padding: 6mm !important;
+    border-top: 4px solid #f0b64d !important;
+    box-shadow: none !important;
+    background: rgba(255,255,255,0.16) !important;
+  }
+
+  .hero-card-title {
+    font-size: 12pt !important;
+    margin-bottom: 4mm !important;
+    padding-bottom: 3mm !important;
+  }
+
+  .hero-card.hero-skills .metric {
+    grid-template-columns: 38mm 1fr !important;
+    gap: 6mm !important;
+    padding: 3mm 0 !important;
+  }
+
+  .hero-card.hero-skills b {
+    font-size: 13pt !important;
+  }
+
+  .hero-card.hero-skills span {
+    font-size: 10pt !important;
+    line-height: 1.35 !important;
+  }
+
+  /* Stats should stay compact and not split awkwardly */
+  .stats {
+    max-width: none !important;
+    margin: 6mm 0 8mm !important;
+    padding: 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 5mm !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .stat {
+    padding: 6mm !important;
+    box-shadow: none !important;
+    border-radius: 10px !important;
+  }
+
+  .stat b {
+    font-size: 20pt !important;
+  }
+
+  .stat span {
+    font-size: 9.5pt !important;
+  }
+
+  /* Remove forced page breaks that create blank pages */
+  .pagebreak,
+  #projects {
+    break-before: auto !important;
+    page-break-before: auto !important;
+  }
+
+  section {
+    max-width: none !important;
+    padding: 8mm 0 6mm !important;
+  }
+
+  .section-head {
+    display: block !important;
+    margin-bottom: 7mm !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  .section-head h2 {
+    font-size: 22pt !important;
+    line-height: 1.12 !important;
+    margin-bottom: 3mm !important;
+  }
+
+  .section-head p {
+    max-width: none !important;
+    margin-top: 0 !important;
+    font-size: 10.5pt !important;
+  }
+
+  .kicker,
+  .role {
+    font-size: 8.5pt !important;
+    letter-spacing: 1.5px !important;
+  }
+
+  /* Project cards should be readable and not leave huge blank pages */
+  .project {
+    margin: 0 0 8mm !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+  }
+
+  .project .top {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    align-items: start !important;
+  }
+
+  .project .copy {
+    padding: 8mm !important;
+  }
+
+  .project h3 {
+    font-size: 20pt !important;
+    line-height: 1.16 !important;
+    margin: 3mm 0 4mm !important;
+  }
+
+  .result-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 3mm !important;
+    margin: 5mm 0 !important;
+  }
+
+  .result {
+    padding: 4mm !important;
+    border-radius: 7px !important;
+  }
+
+  .result b {
+    font-size: 15pt !important;
+  }
+
+  .result span {
+    font-size: 8.5pt !important;
+  }
+
+  .note {
+    font-size: 9.5pt !important;
+    padding: 4mm !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Put project images side-by-side in PDF to reduce height */
+  .shap-gallery {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 5mm !important;
+    padding: 6mm !important;
+    background: #eef7f7 !important;
+  }
+
+  .shap-gallery-item {
+    height: 62mm !important;
+    padding: 3mm !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .shap-gallery-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    transform: none !important;
+  }
+
+  .project .bottom {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8mm !important;
+    padding: 7mm 8mm !important;
+    border-top: 1px solid #d9e7e8 !important;
+  }
+
+  .project h4 {
+    margin-top: 0 !important;
+    margin-bottom: 3mm !important;
+    font-size: 12pt !important;
+  }
+
+  .project ul {
+    margin-top: 0 !important;
+    padding-left: 5mm !important;
+  }
+
+  .project li {
+    margin: 2.5mm 0 !important;
+    font-size: 10pt !important;
+  }
+
+  /* Experience and publication cards */
+  #experience,
+  #publications {
+    padding-top: 8mm !important;
+  }
+
+  .experience-grid {
+    grid-template-columns: 1fr !important;
+    gap: 5mm !important;
+  }
+
+  .experience-card,
+  .pub {
+    box-shadow: none !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .publications {
+    grid-template-columns: 1fr !important;
+  }
+
+  .scholar-text-link {
+    animation: none !important;
+    font-size: 11pt !important;
+  }
+
+  /* Contact section should fit neatly at the end */
+  .contact {
+    margin-top: 8mm !important;
+    background: linear-gradient(125deg, #103f48, #0b6b6b) !important;
+  }
+
+  .contact .inner {
+    max-width: none !important;
+    padding: 10mm !important;
+    display: grid !important;
+    grid-template-columns: 28mm 1fr !important;
+    gap: 8mm !important;
+  }
+
+  .contact-photo img {
+    width: 24mm !important;
+    height: 24mm !important;
+  }
+
+  .contact h2 {
+    font-size: 20pt !important;
+    line-height: 1.15 !important;
+  }
+
+  .contact .links {
+    text-align: left !important;
+    grid-column: 2 !important;
+  }
+}
+
     </style>
   </head>
   <body>
@@ -1202,18 +1527,11 @@
             I build reproducible analytical workflows, communicate uncertainty clearly and translate model outputs into meaningful insights for healthcare and public health teams.
           </p> </div>
           <div class="cta">
-  <a class="btn" href="mailto:mehreen.kiran89@gmail.com">
-    Contact me
-  </a>
-
-  <a class="btn" href="https://linkedin.com/in/mahreen-kiran">
-    LinkedIn
-  </a>
-
-  <button class="btn" onclick="window.print()">
-    Download portfolio
-  </button>
-</div>
+            <a class="btn" href="mailto:mehreen.kiran89@gmail.com">Contact me</a
+            ><a class="btn alt" href="https://linkedin.com/in/mahreen-kiran"
+              >LinkedIn</a
+            >
+          </div>
         </div>
        <aside class="hero-card hero-skills">
 
@@ -1409,7 +1727,7 @@
               </div>
 
               <div class="result">
-                <b>19k+</b>
+                <b>500k+</b>
                 <span>UK Biobank cohort scale</span>
               </div>
 
@@ -1964,7 +2282,7 @@
       <p class="justified-text">
         <b>Challenge:</b>
         Analyse a complex, imbalanced, six-year patient dataset combining
-        clinical, laboratory, serological, behavioural, and
+        clinical, laboratory, serological, behavioural, epidemiological and
         environmental information to develop reliable dengue prediction models
         and identify the most influential predictors of infection.
       </p>
@@ -2026,7 +2344,7 @@
             <ul class="justified-text">
   <li>
     Conducted data-quality checks, cleaning and preprocessing across more than
-    50 clinical, laboratory, behavioural, and environmental
+    50 clinical, laboratory, behavioural, epidemiological and environmental
     variables.
   </li>
   <li>
