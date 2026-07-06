@@ -58,16 +58,21 @@ The full visual case studies are available in the [interactive portfolio website
 
 ---
 
-## Selected highlights
+## Evidence of analytical capability
 
-| Highlight | Evidence |
+This section summarises the strongest evidence from my portfolio and shows how each project demonstrates skills relevant to healthcare data science, clinical analytics, population health and AI research roles.
+
+| Portfolio evidence | What it demonstrates |
 |---|---|
-| **500,000+ participants** | UK Biobank population resource used in diabetes prediction research |
-| **0.90 C-index** | Time-to-event Type 2 diabetes prediction using a survival model |
-| **1,800 neural networks** | Repeated neural modelling for behavioural systems analysis |
-| **3,000 patient records** | Dengue prediction dataset across five endemic districts |
-| **3,581 water samples** | Drinking-water safety analysis across Khyber Pakhtunkhwa |
-| **2,351 articles** | Bibliometric and thematic analysis of AI and ML in Type 2 diabetes prediction |
+| **500,000+ UK Biobank participants analysed** | Experience working with large-scale population health data, cohort development and predictive analytics |
+| **0.90 C-index in Type 2 diabetes prediction** | Strong capability in time-to-event modelling, survival analysis and risk stratification |
+| **1,800 neural networks trained** | Robust repeated modelling, validation and behavioural systems analysis |
+| **3,000 dengue patient records across five districts** | Public health analytics using clinical, serological, epidemiological and environmental variables |
+| **3,581 drinking-water samples analysed** | Environmental health analytics, data cleaning, guideline auditing and contamination-pattern detection |
+| **2,351 articles mapped over 33 years** | Bibliometric analysis, thematic analysis, research intelligence and evidence synthesis |
+| **Multiple explainability methods used** | SHAP, feature importance, ablation analysis and responsible interpretation of model outputs |
+
+The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
 
 ---
 
