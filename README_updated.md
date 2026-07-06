@@ -1,35 +1,31 @@
 <img src="assets/profile.jpeg"
      alt="Dr Mahreen Kiran"
-     width="170"
+     width="180"
      align="left">
 
 <div align="center">
-
 <img src="assets/name.svg"
      alt="Dr Mahreen Kiran"
      width="700"><br>
-
 <strong><big>Healthcare Data Scientist and Analyst</big></strong><br><br>
-
 <strong>Turning complex health data into clear, reproducible and clinically meaningful evidence</strong><br><br>
 
-[![Python](https://img.shields.io/badge/Python-Data%20Science-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#technical-toolkit)
-[![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#featured-projects)
-[![Machine Learning](https://img.shields.io/badge/Machine-Learning-16343B?style=for-the-badge)](#how-i-work)
-[![Explainable AI](https://img.shields.io/badge/Explainable-AI-24595D?style=for-the-badge)](#technical-toolkit)
-[![UK Visa](https://img.shields.io/badge/Global%20Talent%20Visa-No%20Sponsorship%20Required-F0B64D?style=for-the-badge)](#contact)
+[![Python](https://img.shields.io/badge/Python-Data%20Science-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#4-methodology)
+[![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#featured-project-results)
+[![Machine Learning](https://img.shields.io/badge/Machine-Learning-16343B?style=for-the-badge)](#technical-toolkit)
+[![Global Talent Visa](https://img.shields.io/badge/UK-Global%20Talent%20Visa-F0B64D?style=for-the-badge)](#contact)
 
-<br>
+<p align="center">
+  <a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="Mahreen_Kiran_Healthcare_Data_Portfolio.pdf"><strong>Download the PDF portfolio</strong></a>
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/mahreen-kiran"><strong>LinkedIn</strong></a>
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="mailto:mehreen.kiran89@gmail.com"><strong>Email</strong></a>
+</p>
 
-<a href="https://mahreenkiran.github.io/Portfolio/"><strong>View Interactive Portfolio</strong></a>
-&nbsp;&nbsp; | &nbsp;&nbsp;
-<a href="Mahreen_Kiran_Healthcare_Data_Portfolio.pdf"><strong>Download PDF Portfolio</strong></a>
-&nbsp;&nbsp; | &nbsp;&nbsp;
-<a href="https://linkedin.com/in/mahreen-kiran"><strong>LinkedIn</strong></a>
-&nbsp;&nbsp; | &nbsp;&nbsp;
-<a href="mailto:mehreen.kiran89@gmail.com"><strong>Email</strong></a>
-
-</div>
+---
 
 <br clear="left">
 
