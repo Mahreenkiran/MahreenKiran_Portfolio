@@ -19,28 +19,24 @@
 
 ---
 
-<p align="right">
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
-  &nbsp;&nbsp; | &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/mahreen-kiran"><strong>LinkedIn</strong></a>
-  &nbsp;&nbsp; | &nbsp;&nbsp;
-  <a href="mailto:mehreen.kiran89@gmail.com"><strong>Email</strong></a>
+<p align="center">
+   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+<a href="https://mahreenkiran.github.io/Portfolio/"><strong>🌐View Interactive Portfolio</strong></a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/mahreen-kiran"><strong>💼 LinkedIn</strong></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:mehreen.kiran89@gmail.com"><strong>✉️ Email</strong></a>
 </p>
-
 </div>
 
 
 ---
-
-
-
      
-## About this portfolio
-<br clear="left">
 
 <div align="justify">
      
+## About this portfolio
+
 This repository contains my professional portfolio in **healthcare data science, machine learning, clinical prediction, public health analytics, explainable AI and evidence synthesis**.
 
 It is designed for recruiters, healthcare analytics teams, research groups and collaborators who want to quickly understand:
