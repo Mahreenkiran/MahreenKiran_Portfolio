@@ -79,7 +79,9 @@ This section summarises the strongest evidence from my portfolio and shows how e
 ---
 </div>
 
-## Featured projects
+## Selected Projects
+
+This section presents six selected projects from my wider portfolio. They were chosen to demonstrate my experience across healthcare data science, machine learning, public health analytics, explainable AI, survival analysis and evidence synthesis.
 
 ### 1. Behaviour-aware Digital Twin for Type 2 diabetes prediction
 
