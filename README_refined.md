@@ -43,7 +43,7 @@ It is designed for recruiters, healthcare analytics teams, research groups and c
 
 The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
 
-</div>
+
 
 ## Portfolio at a glance
 
@@ -144,6 +144,7 @@ The full visual case studies are available in the [interactive portfolio website
 **Value:** Demonstrates transferable skills in interaction analysis, simulation, uncertainty and explainable AI.
 
 ---
+</div>
 
 ## Technical toolkit
 
@@ -166,18 +167,7 @@ The full visual case studies are available in the [interactive portfolio website
 
 My analytical workflow is structured around reproducibility, interpretability and decision relevance.
 
-```mermaid
-flowchart LR
-    A[Research or business question] --> B[Data understanding]
-    B --> C[Cleaning and cohort definition]
-    C --> D[Exploratory analysis]
-    D --> E[Feature engineering]
-    E --> F[Model development]
-    F --> G[Validation]
-    G --> H[Explainability]
-    H --> I[Interpretation]
-    I --> J[Decision-ready reporting]
-```
+<img src="assets/howiwork.png">
 
 I focus on making sure that the model answers the right question, uses appropriate data, avoids misleading performance claims and produces findings that can be understood by clinical, public health, research and operational audiences.
 
@@ -191,7 +181,7 @@ Selected publications and evidence outputs are included in the portfolio website
 
 ---
 
-## Repository structure
+<!-- ## Repository structure
 
 ```text
 Portfolio/
@@ -208,6 +198,7 @@ Portfolio/
 ```
 
 ---
+-->
 
 ## How to view the portfolio
 
