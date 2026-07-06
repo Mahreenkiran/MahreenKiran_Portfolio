@@ -12,13 +12,14 @@
 
 [![Python](https://img.shields.io/badge/Python-Advanced-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#technical-toolkit)
 [![SQL](https://img.shields.io/badge/SQL-Advanced-16858A?style=for-the-badge)](#technical-toolkit)
-[![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16343B?style=for-the-badge)](#selected-project-case-studies)
-[![Explainable AI](https://img.shields.io/badge/Explainable-AI-0B3C49?style=for-the-badge)](#technical-toolkit)
+[![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#selected-project-case-studies)
+[![HPowerBI](https://img.shields.io/badge/PowerBI-16343B?style=for-the-badge)](#selected-project-case-studies)
+[![Explainable AI](https://img.shields.io/badge/Explainable-AI-16858A?style=for-the-badge)](#technical-toolkit)
 [![No Sponsorship Required](https://img.shields.io/badge/UK-No%20Sponsorship%20Required-F0B64D?style=for-the-badge)](#contact)
 
 ---
 
-<p align="center">
+<p align="right">
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
   &nbsp;&nbsp; | &nbsp;&nbsp;
