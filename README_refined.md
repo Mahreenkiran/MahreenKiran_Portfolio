@@ -144,7 +144,7 @@ The full visual case studies are available in the [interactive portfolio website
 **Value:** Demonstrates transferable skills in interaction analysis, simulation, uncertainty and explainable AI.
 
 ---
-</div>
+
 
 ## Technical toolkit
 
@@ -248,6 +248,7 @@ Global Talent Visa, no sponsorship required
 **Portfolio:** [mahreenkiran.github.io/Portfolio](https://mahreenkiran.github.io/Portfolio/)
 
 ---
+</div>
 
 <div align="center">
 
