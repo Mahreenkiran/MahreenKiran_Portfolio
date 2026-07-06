@@ -73,10 +73,8 @@ This section summarises the strongest evidence from my portfolio and shows how e
 | **2,351 articles mapped over 33 years** | Bibliometric analysis, thematic analysis, research intelligence and evidence synthesis |
 | **Multiple explainability methods used** | SHAP, feature importance, ablation analysis and responsible interpretation of model outputs |
 
-The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
-</div>
-
 ---
+</div>
 
 ## Featured projects
 
