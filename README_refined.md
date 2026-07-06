@@ -82,7 +82,7 @@ This portfolio is not only a collection of machine-learning models. It shows how
 
 </div>
 
-## Technical toolkit
+## Core Technical Skills
 
 | Area | Tools and methods |
 |---|---|
