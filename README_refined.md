@@ -46,13 +46,13 @@ It is designed for recruiters, healthcare analytics teams, research groups and c
 - The projects I have delivered
 - The value of my work for healthcare, public health and research decision-making
 
-The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
+I work across the complete analytical lifecycle, from cohort definition and data quality assessment to modelling, validation, explainability and communication.  The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
 
 <div align="left">
 
 ## Portfolio at a glance
 
-| Area | Evidence shown |
+| **Capability** | **Evidence shown in this portfolio** |
 |---|---|
 | **Healthcare and environmental data science** | <p align="justify"> Type 2 diabetes prediction, dengue prediction, tuberculosis analysis, fungal disease modelling, drinking-water safety assessment and healthcare AI evidence synthesis </p> |
 | **Data preparation and quality control** | <p align="justify"> Cohort definition, missing-data checks, feature engineering, recoding, outlier assessment and analysis-ready dataset creation </p> |
