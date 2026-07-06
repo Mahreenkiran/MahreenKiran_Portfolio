@@ -50,17 +50,35 @@ I work across the complete analytical lifecycle, from cohort definition and data
 
 <div align="left">
 
-## Portfolio at a glance
+
+
+## What makes this portfolio different
+
+This portfolio is not only a collection of machine-learning models. It shows how I approach real healthcare and public-health data problems from start to finish: understanding the question, preparing messy data, selecting suitable methods, validating models, explaining results and translating findings into evidence that can support decisions. The table below summarises the main capabilities demonstrated across the portfolio.
+
+| What makes it different | Evidence shown in this portfolio |
+|---|---|
+| **Healthcare focused data science** | Projects address Type 2 diabetes prediction, dengue surveillance, tuberculosis analysis, drinking water safety, fungal disease modelling and healthcare AI evidence synthesis |
+| **End to end analytical workflow** | Each project shows the full process from data preparation and feature engineering to modelling, validation, interpretation and reporting |
+| **Strong model interpretation** | The portfolio uses SHAP, feature importance, survival curves, ablation analysis, clustering and sensitivity checks to explain model behaviour |
+| **Responsible AI mindset** | Results are not presented as accuracy scores only. Limitations, leakage risks, diagnostic overlap and appropriate interpretation are clearly discussed |
+| **Population and public health relevance** | Work includes UK Biobank scale diabetes research, multi year dengue data, water quality monitoring and bibliometric evidence mapping |
+| **Combination of methods** | Demonstrates survival analysis, classification, neural networks, clustering, PCA, XGBoost, causal reasoning and bibliometric analysis |
+| **Decision focused communication** | Projects are written as employer facing case studies with clear challenge, method, result, value, tools and dataset used |
+
+<!-- ## What makes this portfolio different
 
 | **Capability** | **Evidence shown in this portfolio** |
 |---|---|
 | **Healthcare and environmental data science** | <p align="justify"> Type 2 diabetes prediction, dengue prediction, tuberculosis analysis, fungal disease modelling, drinking-water safety assessment and healthcare AI evidence synthesis </p> |
 | **Data preparation and quality control** | <p align="justify"> Cohort definition, missing-data checks, feature engineering, recoding, outlier assessment and analysis-ready dataset creation </p> |
+| **Clinical interpretation** | <p align="justify"> Translation of psychosocial, behavioural and lifestyle predictors into actionable insight </p> |
 | **Predictive modelling** | <p align="justify"> Survival analysis, classification, neural networks, ensemble learning and risk stratification </p> |
-| **Model validation** | <p align="justify"> Cross-validation, sensitivity analysis, ablation analysis, temporal checks </p>|
-| **Model interpretation and responsible AI** | <p align="justify"> SHAP, feature importance, sensitivity analysis, causal reasoning and clear reporting of limitations </p> |
+| **Model validation** | <p align="justify"> Cross-validation, calibration, robustness checks and sensitivity analysis </p> |
+| **Responsible AI** | <p align="justify"> SHAP, feature importance, causal reasoning and clear reporting of limitations </p> |
 | **Evidence synthesis** | <p align="justify"> Bibliometric analysis, thematic analysis and literature mapping of healthcare AI research </p>|
 | **Communication** | <p align="justify"> Employer-focused case studies, visual summaries, publication outputs and decision-ready reporting </p> |
+-->
 
 </div>
 
