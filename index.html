@@ -1778,132 +1778,157 @@
      
 
 
-    <!-- =======================================================
-           PROJECT X - WATER QUALITY ML (KHYBER PAKHTUNKHWA)
-      ========================================================
-   NOTE ON IMAGES: place your two charts in /assets and match the
-   filenames below (or edit the src). Suggested mapping:
-     assets/who-exceedance.png   -> the WHO guideline-exceedance bar chart
-     assets/water-safety-trend.png -> the 15-year trend line chart
+   <!-- =======================================================
+     PROJECT - WATER QUALITY ML
 ======================================================== -->
+
 <article class="project">
+
   <div class="top">
+
     <div class="copy">
+
       <div class="role">
-        Independent data-science project | Environmental health and water safety
+        Independent data-science project | Environmental health analytics
       </div>
+
       <h3>
-        Machine-learning audit of drinking-water safety across Khyber
-        Pakhtunkhwa: geochemical fingerprinting and contamination regimes
+        Machine-learning audit of drinking-water safety in Khyber Pakhtunkhwa
       </h3>
+
       <p class="justified-text">
         <b>Challenge:</b>
-        Routine water-quality reporting leans on single-parameter tables and
-        manual guideline checks, which obscure how contamination is structured
-        across space and time. Working from a messy, multi-schema monitoring
-        file, the goal was to build an interpretable pipeline that could (1)
-        test whether a sample's chemistry alone reveals its city of origin, and
-        (2) surface distinct contamination regimes and quantify the population's
-        exposure against WHO drinking-water guidelines over a 15-year period.
+        Water-quality monitoring data often comes in messy formats and is usually
+        reported as isolated parameter tables. The goal was to build an
+        interpretable machine-learning pipeline to identify geographic water
+        signatures, detect contamination patterns and assess long-term safety
+        against WHO drinking-water guidelines.
       </p>
+
       <div class="result-grid">
-        <div class="result">
-          <b>55%</b>
-          <span>City-of-origin accuracy (vs 8% chance, 12 classes)</span>
-        </div>
+
         <div class="result">
           <b>3,581</b>
-          <span>Analysis-ready samples · 12 cities · 2009–2024</span>
+          <span>Analysis-ready water samples</span>
         </div>
+
         <div class="result">
-          <b>99.9%</b>
-          <span>Samples breaching the WHO bacterial limit</span>
+          <b>12</b>
+          <span>Cities across Khyber Pakhtunkhwa</span>
         </div>
+
+        <div class="result">
+          <b>2009–24</b>
+          <span>Fifteen-year monitoring period</span>
+        </div>
+
       </div>
+
       <p class="note">
         <b>Employer value:</b>
-        Demonstrates end-to-end environmental-health analytics — reconciling
-        messy real-world data, combining supervised and unsupervised learning,
-        explaining models with SHAP, benchmarking against regulatory guidelines,
-        and communicating results (including null findings) responsibly.
+        Demonstrates the ability to clean complex real-world datasets, combine
+        supervised and unsupervised machine learning, explain model behaviour
+        using SHAP and translate environmental-health findings into practical
+        public-health insight.
       </p>
+
     </div>
+    <!-- Closes copy column -->
+
     <div class="shap-gallery">
+
       <div class="shap-gallery-item">
         <img
-          class="vertical-stretch-image"
-          src="assets/water-safety-trend1.png"
+          src="assets/who-exceedance.png"
           alt="WHO guideline exceedance across water-quality parameters"
         />
       </div>
+
       <div class="shap-gallery-item">
         <img
-          class="vertical-stretch-image2"
-          src="assets/water-safety-trend2.png"
-          alt="Fifteen-year trend in water-safety burden, 2009-2024"
+          src="assets/water-safety-trend.png"
+          alt="Fifteen-year trend in water-safety burden"
         />
       </div>
+
     </div>
+
   </div>
-  <!-- Closes the .top section -->
+  <!-- Closes top section -->
 
   <div class="bottom">
+
     <div>
+
       <h4>What I did</h4>
+
       <ul class="justified-text">
+
         <li>
-          Reconciled a mixed-schema file of 9,184 rows into a single,
-          internally consistent block of 3,581 analysis-ready samples with
-          complete physicochemical and microbiological panels.
+          Cleaned and harmonised a mixed-schema monitoring dataset into
+          3,581 analysis-ready water samples.
         </li>
+
         <li>
-          Trained a gradient-boosted classifier (XGBoost) to predict city of
-          origin from 21 water-quality parameters, and explained it with SHAP
-          global importance, per-city signatures and feature-interaction plots.
+          Built an XGBoost model to predict city of origin from water-quality
+          chemistry and interpreted the model using SHAP.
         </li>
+
         <li>
-          Applied unsupervised learning (standardised K-means with PCA
-          projection) to discover latent contamination regimes without labels.
+          Applied K-means clustering and PCA to identify hidden contamination
+          regimes across cities.
         </li>
+
         <li>
-          Audited every sample against WHO drinking-water guidelines and mapped
-          the resulting burden across cities and across the 2009–2024 period.
+          Audited samples against WHO drinking-water guidelines to quantify
+          safety exceedance patterns over time.
         </li>
+
       </ul>
+
     </div>
+
     <div>
+
       <h4>Key findings and tools</h4>
+
       <ul class="justified-text">
+
         <li>
-          Water chemistry is geographically encoded: hardness, biochemical
-          oxygen demand, conductivity, nitrates and chloride carry the strongest
-          locational signal, with a genuine hardness–phosphate interaction.
+          Water chemistry showed a clear geographic signal, with hardness,
+          conductivity, nitrates, chloride and oxygen-demand indicators helping
+          distinguish cities.
         </li>
+
         <li>
-          Samples fall into four ordered contamination regimes; the most severe
-          combines microbiological and organic-oxygen-demand loading — a
-          sewage-ingress signature. WHO exceedances are near-universal
-          (99.9% bacteria, 98.9% turbidity, 87% arsenic) with no improvement
-          over 15 years.
+          Clustering revealed distinct contamination regimes, including patterns
+          consistent with microbiological and organic pollution burden.
         </li>
+
         <li>
-          Reported transparently that diagnosed disease was <b>not</b>
-          predictable from chemistry (accuracy below the majority baseline),
-          avoiding a spurious model.
+          WHO guideline exceedances were widespread, highlighting the need for
+          stronger monitoring, remediation and public-health response.
         </li>
+
         <li>
           <b>Tools:</b>
           Python, pandas, NumPy, scikit-learn, XGBoost, SHAP, K-means, PCA and
           Matplotlib.
         </li>
+
         <li>
           <b>Dataset used:</b>
-          Khyber Pakhtunkhwa water-quality monitoring dataset (12 cities,
-          2009–2024).
+          Khyber Pakhtunkhwa water-quality monitoring dataset, covering
+          12 cities from 2009 to 2024.
         </li>
+
       </ul>
+
     </div>
+
   </div>
+  <!-- Closes bottom section -->
+
 </article>
   <!-- =======================================================
            PROJECT 2 - DENGUE ANALYTICS
