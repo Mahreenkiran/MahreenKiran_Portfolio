@@ -13,7 +13,7 @@
 [![Python](https://img.shields.io/badge/Python-Data%20Science-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#4-methodology)
 [![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#featured-project-results)
 [![Machine Learning](https://img.shields.io/badge/Machine-Learning-16343B?style=for-the-badge)](#technical-toolkit)
-[![Global Talent Visa](https://img.shields.io/badge/UK-Global%20Talent%20Visa-F0B64D?style=for-the-badge)](#contact)
+[![No sponsorship required](https://img.shields.io/badge/UK-Global%20Talent%20Visa-F0B64D?style=for-the-badge)](#contact)
 
 <p align="center">
   <a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
