@@ -47,22 +47,21 @@ It is designed for recruiters, healthcare analytics teams, research groups and c
 
 The full visual case studies are available in the [interactive portfolio website](https://mahreenkiran.github.io/Portfolio/).
 
-
+<div align="left">
 
 ## Portfolio at a glance
 
 | Area | Evidence shown |
 |---|---|
-| **Healthcare data science** | Type 2 diabetes prediction, dengue infection prediction, water-quality safety analysis and healthcare AI evidence synthesis |
-| **Population health analytics** | Large-scale Type 2 diabetes prediction using UK Biobank data |
-| **Data preparation and quality control** | Cohort definition, missing-data checks, feature engineering, recoding, outlier assessment and analysis-ready dataset creation |
-| **Predictive modelling** | Survival analysis, classification, neural networks, ensemble learning and risk stratification |
-| **Model validation** | Cross-validation, sensitivity analysis, ablation analysis, temporal checks and geographic validation |
-| **Model interpretation and responsible AI** | SHAP, feature importance, sensitivity analysis, causal reasoning and clear reporting of limitations |
-| **Public health analytics** | Dengue infection prediction, Tuberculosis  and drinking-water safety analysis using clinical, epidemiological, environmental and monitoring data |
-| **Evidence synthesis** | Bibliometric analysis, thematic analysis and literature mapping of healthcare AI research |
-| **Communication** | Employer-focused case studies, visual summaries, publication outputs and decision-ready reporting |
-| **Technical toolkit** | Advanced Python, advanced SQL, R, scikit-learn, XGBoost, SHAP, Power BI, VOSviewer, Bibliometrix and Excel |
+| **Healthcare and environmental data science** | <p align="justify"> Type 2 diabetes prediction, dengue prediction, tuberculosis analysis, fungal disease modelling, drinking-water safety assessment and healthcare AI evidence synthesis </p> |
+| **Data preparation and quality control** | <p align="justify"> Cohort definition, missing-data checks, feature engineering, recoding, outlier assessment and analysis-ready dataset creation </p> |
+| **Predictive modelling** | <p align="justify"> Survival analysis, classification, neural networks, ensemble learning and risk stratification </p> |
+| **Model validation** | <p align="justify"> Cross-validation, sensitivity analysis, ablation analysis, temporal checks </p>|
+| **Model interpretation and responsible AI** | <p align="justify"> SHAP, feature importance, sensitivity analysis, causal reasoning and clear reporting of limitations </p> |
+| **Evidence synthesis** | <p align="justify"> Bibliometric analysis, thematic analysis and literature mapping of healthcare AI research </p>|
+| **Communication** | <p align="justify"> Employer-focused case studies, visual summaries, publication outputs and decision-ready reporting </p> |
+
+</div>
 
 ## Technical toolkit
 
