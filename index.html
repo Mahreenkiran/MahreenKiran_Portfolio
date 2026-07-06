@@ -1016,6 +1016,45 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+      /* Make the Core Technical Skills box more prominent */
+.hero-card.hero-skills {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.24),
+    rgba(255, 255, 255, 0.11)
+  );
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-top: 6px solid #f0b64d;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(12px);
+}
+
+/* Title styling */
+.hero-card-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Skill category names */
+.hero-card.hero-skills b {
+  color: #ffffff;
+  font-weight: 900;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+}
+
+/* Skill descriptions */
+.hero-card.hero-skills span {
+  color: #f3fffd;
+  font-weight: 500;
+}
+
+/* Dividing lines inside the box */
+.hero-card.hero-skills .metric {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+}
       
       /* 14. PDF AND PRINT LAYOUT */
       @media print {
