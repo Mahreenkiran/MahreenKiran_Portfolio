@@ -10,10 +10,11 @@
 <strong><big>Healthcare Data Scientist and Analyst</big></strong><br><br>
 <strong>Turning complex health data into clear, reproducible and clinically meaningful evidence</strong><br><br>
 
-[![Python](https://img.shields.io/badge/Python-Data%20Science-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#4-methodology)
-[![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#featured-project-results)
-[![Machine Learning](https://img.shields.io/badge/Machine-Learning-16343B?style=for-the-badge)](#technical-toolkit)
-[![No sponsorship required](https://img.shields.io/badge/UK-Global%20Talent%20Visa-F0B64D?style=for-the-badge)](#contact)
+[![Python](https://img.shields.io/badge/Python-Advanced-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#technical-toolkit)
+[![SQL](https://img.shields.io/badge/SQL-Advanced-16858A?style=for-the-badge)](#technical-toolkit)
+[![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16343B?style=for-the-badge)](#selected-project-case-studies)
+[![Explainable AI](https://img.shields.io/badge/Explainable-AI-0B3C49?style=for-the-badge)](#technical-toolkit)
+[![No Sponsorship Required](https://img.shields.io/badge/UK-No%20Sponsorship%20Required-F0B64D?style=for-the-badge)](#contact)
 
 <p align="center">
   <a href="https://mahreenkiran.github.io/Portfolio/"><strong>View the interactive portfolio</strong></a>
