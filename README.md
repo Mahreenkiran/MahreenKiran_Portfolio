@@ -114,7 +114,7 @@ This portfolio is not only a collection of machine-learning models. It shows how
 | **Applied domains** |<p align="justify"> Population health, public health, clinical prediction, infectious disease surveillance and environmental health analytics </p>|---
 </div>
 
-<div align="justify">
+<div align="left">
      
 ## Evidence of analytical capability
 
