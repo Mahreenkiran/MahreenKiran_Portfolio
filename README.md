@@ -10,14 +10,12 @@
 <strong><big>Healthcare Data Scientist and Analyst</big></strong><br><br>
 <strong>Turning complex health data into clear, reproducible and clinically meaningful evidence</strong><br><br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Advanced-0B6B6B?style=for-the-badge&logo=python&logoColor=white" alt="Python Advanced">
-  <img src="https://img.shields.io/badge/SQL-Advanced-16858A?style=for-the-badge" alt="SQL Advanced">
-  <img src="https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge" alt="Healthcare Analytics">
-  <img src="https://img.shields.io/badge/Power%20BI-Advanced-16343B?style=for-the-badge" alt="Power BI Advanced">
-  <img src="https://img.shields.io/badge/Explainable-AI-16858A?style=for-the-badge" alt="Explainable AI">
-  <img src="https://img.shields.io/badge/UK-No%20Sponsorship%20Required-F0B64D?style=for-the-badge" alt="No Sponsorship Required">
-</p>
+[![Python](https://img.shields.io/badge/Python-Advanced-0B6B6B?style=for-the-badge&logo=python&logoColor=white)](#technical-toolkit) 
+[![SQL](https://img.shields.io/badge/SQL-Advanced-16858A?style=for-the-badge)](#technical-toolkit) 
+[![Healthcare Analytics](https://img.shields.io/badge/Healthcare-Analytics-16858A?style=for-the-badge)](#selected-project-case-studies) 
+[![HPowerBI](https://img.shields.io/badge/PowerBI-16343B?style=for-the-badge)](#selected-project-case-studies) 
+[![Explainable AI](https://img.shields.io/badge/Explainable-AI-16858A?style=for-the-badge)](#selected-project-case-studies) 
+[![No Sponsorship Required](https://img.shields.io/badge/UK-No%20Sponsorship%20Required-F0B64D?style=for-the-badge)](#contact)
 
 ---
 
