@@ -132,9 +132,11 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Methods:** Cox survival analysis, risk stratification, validation, causal reasoning, Digital Twin simulation and interpretable modelling.
 
-**Key result:** The survival model achieved a **0.90 C-index**, showing strong discrimination for time-to-diabetes onset.
+**Key result:** Using only non-clinical features the survival model achieved a **0.90 C-index**, showing strong discrimination for time-to-diabetes onset.
 
 **Value:** Demonstrates population health analytics, longitudinal modelling, prevention-focused interpretation and the ability to translate risk models into practical health insight.
+
+**Used:** ICD10 codes, Python, pandas, NumPy, lifelines, scikit-learn, neural networks, k-mean clustering, SHAP, PCA, causal inference and Matplotlib.
 
 ---
 
@@ -148,6 +150,8 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Value:** Demonstrates the ability to convert complex neural-network outputs into understandable behavioural patterns.
 
+**Used:** Python, TensorFlow, Keras, PyTorch, scikit-learn, pandas, NumPy, neural networks, Cox regression and Matplotlib.
+
 ---
 
 ### 3. Climate-sensitive machine learning for dengue infection prediction
@@ -160,6 +164,8 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Value:** Demonstrates strong analytical judgement by separating model performance from possible diagnostic leakage.
 
+**Used:** Python, scikit-learn, pandas, cross-validation, SMOTE, feature importance, ablation analysis.
+
 ---
 
 ### 4. Machine-learning audit of drinking-water safety
@@ -171,6 +177,7 @@ This section presents six selected projects from my wider portfolio. They were c
 **Key result:** The analysis identified geographic water-quality signatures, contamination regimes and widespread guideline exceedance patterns.
 
 **Value:** Demonstrates environmental health analytics, unsupervised learning and public-health focused interpretation.
+**Used:** Python, pandas, NumPy, scikit-learn, XGBoost, SHAP, K-means, PCA and Matplotlib.
 
 ---
 
@@ -184,6 +191,8 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Value:** Demonstrates research intelligence, evidence synthesis and the ability to identify methodological trends and clinical translation gaps.
 
+**Used:**  Python, scikit-learn, pandas, cross-validation, SMOTE, feature importance, ablation analysis.
+
 ---
 
 ### 6. Explainable AI for climate-dependent treatment effectiveness
@@ -195,6 +204,8 @@ This section presents six selected projects from my wider portfolio. They were c
 **Key result:** The analysis identified climate-response patterns and showed how environmental conditions can alter treatment effectiveness.
 
 **Value:** Demonstrates transferable skills in interaction analysis, simulation, uncertainty and explainable AI.
+
+**Used:** Python, XGBoost, SHAP, Monte Carlo simulation.
 
 ---
 
