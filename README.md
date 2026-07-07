@@ -177,6 +177,7 @@ This section presents six selected projects from my wider portfolio. They were c
 **Key result:** The analysis identified geographic water-quality signatures, contamination regimes and widespread guideline exceedance patterns.
 
 **Value:** Demonstrates environmental health analytics, unsupervised learning and public-health focused interpretation.
+
 **Used:** Python, pandas, NumPy, scikit-learn, XGBoost, SHAP, K-means, PCA and Matplotlib.
 
 ---
@@ -191,21 +192,21 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Value:** Demonstrates research intelligence, evidence synthesis and the ability to identify methodological trends and clinical translation gaps.
 
-**Used:**  Python, scikit-learn, pandas, cross-validation, SMOTE, feature importance, ablation analysis.
+**Used:** R, Bibliometrix, Biblioshiny, VOSviewer, Web of Science, Scopus and Excel.
 
 ---
 
-### 6. Explainable AI for climate-dependent treatment effectiveness
+### 6. Climate-aware prediction of fungicide effectiveness
 
-**Question:** How do climate variables such as temperature, humidity and precipitation influence treatment effectiveness?
+**Question:** How do temperature, humidity and rainfall influence fungicide effectiveness?
 
-**Methods:** XGBoost, SHAP interaction analysis, Monte Carlo simulation and multimodal evidence integration.
+**Dataset:** 2k+ agricultural and environmental records from six KPK districts, collected between 2020 and 2024.
 
-**Key result:** The analysis identified climate-response patterns and showed how environmental conditions can alter treatment effectiveness.
+**Key result:** Propiconazole performed best, with Dose 4 giving the strongest disease control and yield improvement. Moisture-dependent fungicides performed better in wet and humid conditions, while others remained effective across wider climate ranges.
 
-**Value:** Demonstrates transferable skills in interaction analysis, simulation, uncertainty and explainable AI.
+**Value:** Demonstrates transferable skills in explainable AI, environmental interaction analysis, simulation and interpretation of complex climate-linked data.
 
-**Used:** Python, XGBoost, SHAP, Monte Carlo simulation.
+**Used:** Python, XGBoost, SHAP, Monte Carlo simulation
 
 ---
 
