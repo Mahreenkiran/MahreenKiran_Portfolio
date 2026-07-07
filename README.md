@@ -1,6 +1,6 @@
 <img src="assets/profile3.jpeg"
      alt="Dr Mahreen Kiran"
-     width="180"
+     width="160"
      align="left">
 
 <div align="center">
@@ -42,9 +42,7 @@
 </p>
 </div>
 
-
 ---
-     
 
 <div align="justify">
      
