@@ -1,4 +1,4 @@
-<img src="assets/profile2.jpeg"
+<img src="assets/profile3.jpeg"
      alt="Dr Mahreen Kiran"
      width="180"
      align="left">
