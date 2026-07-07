@@ -19,18 +19,26 @@
 
 ---
 
-<p align="center">
-   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-<a href="https://mahreenkiran.github.io/MahreenKiran_Portfolio/"><strong>🌐View Interactive Portfolio</strong></a>
-  &nbsp;&nbsp;
-  <a href="[https://mahreenkiran.github.io/MahreenKiran_Portfolio/](https://scholar.google.com/citations?hl=en&user=dJA-TzEAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=mehreen.kiran89%40gmail.com&gmla=ACrTK9W6Qrea5Kk_mHsMphppGbmmIItkNzAeys2Wd-DtNoc-tBFC0R6I7W2rersKyvLTernZJ2aJzjsIJ2w4eDn4tZQWEM2wMY1TIOTRFuau_LKZqxNgETbB__UlLgpodpOWqgaVRiVPD5_LKYnpBoNj2n9VO8qggChFuNCWxkvuHpXHCWiPOiFlz1kmJB0KV-_9LVw6NJTQ-WAf2Y81Sjto4MxLJPI9_OZfQRKMjjosUfAcwLqZZIY"
-        target="_blank)"><strong>🌐Google Scholar</strong></a>
-   &nbsp;&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/mahreen-kiran"><strong>💼 LinkedIn</strong></a>
+<p align="right">
+  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+     <a href="https://mahreenkiran.github.io/MahreenKiran_Portfolio/">
+    <strong>🌐 View Interactive Portfolio</strong>
+  </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="mailto:mehreen.kiran89@gmail.com"><strong>✉️ Email</strong></a>
-    
-     
+
+  <a href="https://scholar.google.com/citations?user=dJA-TzEAAAAJ&hl=en" target="_blank">
+    <u><strong>🎓 Google Scholar</strong></u>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://linkedin.com/in/mahreen-kiran">
+    <strong>💼 LinkedIn</strong>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="mailto:mehreen.kiran89@gmail.com">
+    <strong>✉️ Email</strong>
+  </a>
 </p>
 </div>
 
