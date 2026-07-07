@@ -23,9 +23,14 @@
    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
 <a href="https://mahreenkiran.github.io/MahreenKiran_Portfolio/"><strong>🌐View Interactive Portfolio</strong></a>
   &nbsp;&nbsp;
+  <a href="[https://mahreenkiran.github.io/MahreenKiran_Portfolio/](https://scholar.google.com/citations?hl=en&user=dJA-TzEAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=mehreen.kiran89%40gmail.com&gmla=ACrTK9W6Qrea5Kk_mHsMphppGbmmIItkNzAeys2Wd-DtNoc-tBFC0R6I7W2rersKyvLTernZJ2aJzjsIJ2w4eDn4tZQWEM2wMY1TIOTRFuau_LKZqxNgETbB__UlLgpodpOWqgaVRiVPD5_LKYnpBoNj2n9VO8qggChFuNCWxkvuHpXHCWiPOiFlz1kmJB0KV-_9LVw6NJTQ-WAf2Y81Sjto4MxLJPI9_OZfQRKMjjosUfAcwLqZZIY"
+        target="_blank)"><strong>🌐Google Scholar</strong></a>
+   &nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/mahreen-kiran"><strong>💼 LinkedIn</strong></a>
   &nbsp;&nbsp;&nbsp;
   <a href="mailto:mehreen.kiran89@gmail.com"><strong>✉️ Email</strong></a>
+    
+     
 </p>
 </div>
 
@@ -132,11 +137,11 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Methods:** Cox survival analysis, risk stratification, validation, causal reasoning, Digital Twin simulation and interpretable modelling.
 
-**Key result:** Using only non-clinical features the survival model achieved a **0.90 C-index**, showing strong discrimination for time-to-diabetes onset.
+**Key result:** Using only non-clinical features, the survival model achieved a **0.90 C-index**, showing strong discrimination for time-to-diabetes onset.
 
 **Value:** Demonstrates population health analytics, longitudinal modelling, prevention-focused interpretation and the ability to translate risk models into practical health insight.
 
-**Used:** ICD10 codes, Python, pandas, NumPy, lifelines, scikit-learn, neural networks, k-mean clustering, SHAP, PCA, causal inference and Matplotlib.
+**Tools & techniques:** ICD-10 phenotyping, Python, pandas, NumPy, lifelines, scikit-learn, neural networks, K-means clustering, SHAP, PCA, causal inference and Matplotlib.
 
 ---
 
@@ -150,7 +155,7 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Value:** Demonstrates the ability to convert complex neural-network outputs into understandable behavioural patterns.
 
-**Used:** Python, TensorFlow, Keras, PyTorch, scikit-learn, pandas, NumPy, neural networks, Cox regression and Matplotlib.
+**Tools & techniques:** Python, TensorFlow, Keras, PyTorch, scikit-learn, pandas, NumPy, neural networks, Cox regression, connection-weight analysis and Matplotlib.
 
 ---
 
@@ -162,9 +167,9 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Key result:** Initial model comparisons produced **AUC-ROC values around 0.90 to 0.94**. Sensitivity analysis showed that diagnostic serology strongly influenced full-model performance.
 
-**Value:** Demonstrates strong analytical judgement by separating model performance from possible diagnostic leakage.
+**Value:** Demonstrates the ability to build, validate and interpret machine-learning models for infectious disease prediction, while translating complex clinical and environmental data into clear public-health insights.
 
-**Used:** Python, scikit-learn, pandas, cross-validation, SMOTE, feature importance, ablation analysis.
+**Tools & techniques:** Python, pandas, NumPy, scikit-learn, SMOTE, cross-validation, feature importance, ablation analysis, ROC-AUC evaluation and Matplotlib.
 
 ---
 
@@ -178,7 +183,7 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Value:** Demonstrates environmental health analytics, unsupervised learning and public-health focused interpretation.
 
-**Used:** Python, pandas, NumPy, scikit-learn, XGBoost, SHAP, K-means, PCA and Matplotlib.
+**Tools & techniques:** Python, pandas, NumPy, scikit-learn, XGBoost, SHAP, K-means clustering, PCA, WHO guideline auditing and Matplotlib.
 
 ---
 
@@ -192,7 +197,7 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Value:** Demonstrates research intelligence, evidence synthesis and the ability to identify methodological trends and clinical translation gaps.
 
-**Used:** R, Bibliometrix, Biblioshiny, VOSviewer, Web of Science, Scopus and Excel.
+**Tools & techniques:** R, Bibliometrix, Biblioshiny, VOSviewer, Web of Science, Scopus, Excel, PRISMA screening, citation analysis and thematic mapping.
 
 ---
 
@@ -200,13 +205,17 @@ This section presents six selected projects from my wider portfolio. They were c
 
 **Question:** How do temperature, humidity and rainfall influence fungicide effectiveness?
 
-**Dataset:** 2k+ agricultural and environmental records from six KPK districts, collected between 2020 and 2024.
+**Dataset:** 2,000+ agricultural and environmental records from six KPK districts, collected between 2020 and 2024.
+
+**Methods:** XGBoost modelling, SHAP interaction analysis, Monte Carlo simulation and climate-response interpretation.
 
 **Key result:** Propiconazole performed best, with Dose 4 giving the strongest disease control and yield improvement. Moisture-dependent fungicides performed better in wet and humid conditions, while others remained effective across wider climate ranges.
 
 **Value:** Demonstrates transferable skills in explainable AI, environmental interaction analysis, simulation and interpretation of complex climate-linked data.
 
-**Used:** Python, XGBoost, SHAP, Monte Carlo simulation
+**Tools & techniques:** Python, XGBoost, SHAP, Monte Carlo simulation, feature interaction analysis and Matplotlib.
+
+
 
 ---
 
