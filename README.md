@@ -82,22 +82,26 @@ This portfolio is not only a collection of machine-learning models. It shows how
 
 </div>
 
+<div align="left">
+
 ## Core Technical Skills
 
 | Area | Tools and methods |
 |---|---|
-| **Languages** | Advanced Python, Advanced SQL, Basic R |
-| **Data analysis** | pandas, NumPy, Excel and Jupyter Notebook |
-| **Machine learning** | scikit-learn, XGBoost, Random Forest, Gradient Boosting, Logistic Regression and neural networks |
-| **Survival analysis** | Cox proportional hazards models, risk trajectories and Kaplan-Meier analysis |
-| **Deep learning** | TensorFlow and PyTorch |
-| **Explainability** | SHAP, feature importance, permutation importance, ablation analysis, sensitivity analysis and model interpretation |
-| **Causal methods** | Directed acyclic graphs, matching, adjusted modelling and intervention reasoning |
-| **Visualisation** | Matplotlib, Seaborn, Power BI and portfolio visual reporting |
-| **Research analytics** | Bibliometrix, Biblioshiny, VOSviewer, Web of Science and Scopus |
-| **Validation** | Cross-validation, temporal validation, geographic validation, calibration and robustness checks |
-
----
+| **Languages** | <p align="justify"> Advanced Python, Advanced SQL, Basic R </p> |
+| **Data analysis and wrangling** |<p align="justify"> pandas, NumPy, Excel, Jupyter Notebook, exploratory data analysis (EDA), data cleaning, quality assurance and feature engineering </p>|
+| **Statistical modelling** |<p align="justify"> Regression, classification, clustering, PCA </p>|
+| **Machine learning** |<p align="justify"> scikit-learn, XGBoost, Random Forest, Gradient Boosting, ensemble methods, Logistic Regression, neural networks and SMOTE for class imbalance handling </p>|
+| **Survival analysis** |<p align="justify"> Cox proportional hazards models, Kaplan-Meier analysis, risk trajectories, lifelines and scikit-survival </p>|
+| **Deep learning** |<p align="justify"> TensorFlow and PyTorch </p>|
+| **Explainability** |<p align="justify"> SHAP, LIME, feature importance, permutation importance, ablation analysis, sensitivity analysis and model interpretation </p>|
+| **Causal methods** | <p align="justify">Directed acyclic graphs, matching, causal inference and intervention reasoning </p>|
+| **Visualisation and BI** | <p align="justify">Matplotlib, Seaborn, Power BI dashboards, Excel reporting  </p>|
+| **Validation** | <p align="justify">Cross validation, temporal validation, robustness checks and model performance assessment </p>|
+| **Data handling and governance** |<p align="justify"> Reproducible workflows, large scale longitudinal data, cohort data, clinical datasets, EHR concepts and ICD-10 coding </p>|
+| **Additional analytics tools** |<p align="justify"> Weka, RapidMiner, Vosviewer, Xtiles</p> |
+| **Applied domains** |<p align="justify"> Population health, public health, clinical prediction, infectious disease surveillance and environmental health analytics </p>|---
+</div>
 
 <div align="justify">
      
