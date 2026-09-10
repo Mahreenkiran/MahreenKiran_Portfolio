@@ -40,6 +40,15 @@
     <strong>✉️ Email</strong>
   </a>
 </p>
+
+<p align="right">
+  <strong>📊 Looking for Data Analytics & BI projects?</strong>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Mahreenkiran/MahreenKiran_Data_Analytics_Portfolio">
+    <strong>Click here →</strong>
+  </a>
+</p>
+
 </div>
 
 ---
