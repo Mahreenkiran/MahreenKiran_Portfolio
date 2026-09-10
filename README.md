@@ -164,6 +164,8 @@ This section presents six selected projects from my wider portfolio. They were c
 
 ### 2. Neural framework for behavioural network reorganisation
 
+[🌐 View this project in the Interactive Portfolio](https://mahreenkiran.github.io/MahreenKiran_Portfolio/#neural-behaviour)
+
 **Question:** How do sleep, diet, smoking, BMI and psychosocial wellbeing interact differently in healthy and Type 2 diabetes populations?
 
 **Methods:** Neural networks, repeated five-fold cross-validation, connection-weight analysis, behavioural network analysis and centrality interpretation.
@@ -177,6 +179,8 @@ This section presents six selected projects from my wider portfolio. They were c
 ---
 
 ### 3. Climate-sensitive machine learning for dengue infection prediction
+
+[🌐 View this project in the Interactive Portfolio](https://mahreenkiran.github.io/MahreenKiran_Portfolio/#dengue-prediction)
 
 **Question:** Can clinical, laboratory, serological, behavioural, epidemiological and environmental variables support dengue infection prediction?
 
@@ -192,6 +196,8 @@ This section presents six selected projects from my wider portfolio. They were c
 
 ### 4. Machine-learning audit of drinking-water safety
 
+[🌐 View this project in the Interactive Portfolio](https://mahreenkiran.github.io/MahreenKiran_Portfolio/#water-safety)
+
 **Question:** Can machine learning and guideline-based analysis identify contamination patterns in drinking-water monitoring data?
 
 **Methods:** Data cleaning, WHO guideline auditing, XGBoost, SHAP, K-means clustering, PCA and trend analysis.
@@ -206,6 +212,8 @@ This section presents six selected projects from my wider portfolio. They were c
 
 ### 5. Bibliometric and thematic analysis of AI in Type 2 diabetes prediction
 
+[🌐 View this project in the Interactive Portfolio](https://mahreenkiran.github.io/MahreenKiran_Portfolio/#ai-bibliometric)
+
 **Question:** How has AI and machine learning research for Type 2 diabetes prediction evolved over time?
 
 **Methods:** PRISMA-guided literature dataset preparation, Bibliometrix, Biblioshiny, VOSviewer, citation analysis, collaboration mapping and thematic analysis.
@@ -219,6 +227,8 @@ This section presents six selected projects from my wider portfolio. They were c
 ---
 
 ### 6. Climate-aware prediction of fungicide effectiveness
+
+[🌐 View this project in the Interactive Portfolio](https://mahreenkiran.github.io/MahreenKiran_Portfolio/#fungicide-prediction)
 
 **Question:** How do temperature, humidity and rainfall influence fungicide effectiveness?
 
