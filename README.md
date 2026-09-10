@@ -146,7 +146,9 @@ This section summarises the strongest evidence from my portfolio and shows how e
 
 This section presents six selected projects from my wider portfolio. They were chosen to demonstrate my experience across healthcare data science, machine learning, public health analytics, explainable AI, survival analysis and evidence synthesis.
 
-### [1. Behaviour-aware Digital Twin for Type 2 diabetes prediction](https://mahreenkiran.github.io/MahreenKiran_Portfolio/#digital-twin)
+### 1. Behaviour-aware Digital Twin for Type 2 diabetes prediction
+
+[🌐 View this project in the Interactive Portfolio](https://mahreenkiran.github.io/MahreenKiran_Portfolio/#digital-twin)
 
 **Question:** Can behavioural, lifestyle and psychosocial variables help predict the onset of Type 2 diabetes without relying only on laboratory biomarkers?
 
