@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600"
+     height="180"
+     viewBox="0 0 1600 180"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Healthcare Data Science &amp; AI Portfolio</title>
+  <desc id="desc">Healthcare Data Science &amp; AI Portfolio</desc>
+
+  <rect width="100%" height="100%" fill="none"/>
+
+  <text
+    x="800"
+    y="112"
+    text-anchor="middle"
+    fill="#111827"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="56"
+    font-weight="800">
+    Healthcare Data Science &amp; AI Portfolio
+  </text>
+</svg>
